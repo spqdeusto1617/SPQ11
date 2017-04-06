@@ -35,10 +35,55 @@ public class Controller {
 	}
 	
 	
+	public void comprobarBateria()
+	{
+		try {
+			// Add your code HERE - Related to getting the service 
+		int bateria= rsl.getTelemetrias().comprobarBateria();
+		if(bateria<15){
+			System.out.println("Queda poca bateria");
+		}
+		System.out.println("Bateria: "+bateria);
+		} catch (Exception e) {
+			
+			System.out.println("$ Error Comprobando Bateria() Controller ");
+			
+		}	
+		
+	}
+	public void comprobarVeocidad()
+	{
+		try {
+			// Add your code HERE - Related to getting the service 
+		int velicidad= rsl.getTelemetrias().comprobarVelocidad();
+		if(velicidad>80){
+			System.out.println("Exceso de velocidad");
+		}
+		System.out.println("Velocidad: "+velicidad);
+		} catch (Exception e) {
+			
+			System.out.println("$ Error Comprobando velicidad Controller ");
+			
+		}	
+		
+	}
 	
 	
-	
-    
+	public void obtenerNuevoKilometraje(int nuevosKilometrosRecorridos)
+	{
+		try {
+			// Add your code HERE - Related to getting the service 
+		int kilometros= rsl.getTelemetrias().getNuevoKilometraje(nuevosKilometrosRecorridos);
+		
+		System.out.println("Kilometraje: "+kilometros);
+		} catch (Exception e) {
+			
+			System.out.println("$ Error Kilometraje Controller ");
+			
+		}
+		
+		
+	}
     
 	/** Método principal
 	 * 
