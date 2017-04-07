@@ -11,8 +11,8 @@ public class Controller {
 	private String name;
 	
 	/** 
-	 * Relaciona la aplicación con el ServiceLocator
-	 * @param args
+	 * Relaciona la aplicación con el ServiceLocator y abre la ventana
+	 * @param args String[]  
 	 */
 	public Controller(String[] args) throws RemoteException 
 	{
@@ -21,7 +21,7 @@ public class Controller {
 		this.rsl = new ServiceLocator();
 		rsl.setService(args[0], args[1], args[2], args[3], args[4]);
 		new VentanaCliente(this);
-		
+		comprobarBateria();
 		
 	}
 	
@@ -34,7 +34,10 @@ public class Controller {
 		System.exit(0);
 	}
 	
-	
+	/** 
+	 * Hace una llamada al service locator para que
+	 *  conecte con el servidor y mire la bateria  
+	 */
 	public void comprobarBateria()
 	{
 		try {
@@ -51,6 +54,10 @@ public class Controller {
 		}	
 		
 	}
+	/** 
+	 * Hace una llamada al service locator para que
+	 *  conecte con el servidor y mire la velocidad  
+	 */
 	public void comprobarVeocidad()
 	{
 		try {
@@ -68,7 +75,12 @@ public class Controller {
 		
 	}
 	
-	
+	/** 
+	 * Hace una llamada al service locator para que
+	 *  conecte con el servidor , actualiza  los kilometros recorridos 
+	 *  y se los muestra
+	 * @param nuevosKilometrosRecorridos int   
+	 */
 	public void obtenerNuevoKilometraje(int nuevosKilometrosRecorridos)
 	{
 		try {
@@ -87,7 +99,7 @@ public class Controller {
     
 	/** Método principal
 	 * 
-	 * @param args
+	 * @param args String[]
 	 */
 	public static void main(String[]args) throws RemoteException
 	{

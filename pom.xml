@@ -138,7 +138,7 @@
 						<artifactId>exec-maven-plugin</artifactId>  
 						<version>1.2.1</version>  
 						<configuration>  
-									<mainClass>es.deusto.server.Server</mainClass>
+									<mainClass>servidor.server.CocheServer</mainClass>
 									<systemProperties>
 										
 										<systemProperty>
@@ -177,7 +177,7 @@
 						<artifactId>exec-maven-plugin</artifactId>  
 						<version>1.2.1</version>  
 						<configuration>  
-									<mainClass>es.deusto.client.Client</mainClass>
+									<mainClass>client.Controller</mainClass>
 									<systemProperties>
 										<systemProperty>
 											<key>java.security.manager</key>

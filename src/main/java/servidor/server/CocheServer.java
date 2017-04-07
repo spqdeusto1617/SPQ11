@@ -12,7 +12,9 @@ import servidor.remote.IFacadeTelemetrias;
 @SuppressWarnings("unused")
 public class CocheServer {
 
-		
+	 /** Método para estar en linea esperando llamadas del cliente
+	 
+		 */
 		
 			public static void main(String[] args) {
 				if (args.length != 4) {

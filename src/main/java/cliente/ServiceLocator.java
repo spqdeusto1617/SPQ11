@@ -13,6 +13,14 @@ public class ServiceLocator {
     public ServiceLocator(){ 
      
     }
+    /** Método para conectarse a las interfaces del servidor
+	 * 
+	 * @param ip String
+	 * @param port String
+	 * @param serviceName1 String
+	 * @param serviceName2 String
+	 * @param serviceName3 String
+	 */
     public void setService(String ip, String port, String serviceName1, String serviceName2,String serviceName3) {    
     	// Add your code to get the TARGET reference HERE 
     	if (System.getSecurityManager() == null) {
@@ -47,16 +55,23 @@ public class ServiceLocator {
 			e.printStackTrace(); 
 		}
     }
- 
+    /** Método para acceder a la interfaz 1 del servidor
+	 
+	 */
     public IFacadeTelemetrias getTelemetrias() {
     	// Add your code to return the TARGET reference HERE
     	return ServicioTelemetrias;
     }
-    
+    /** Método para acceder a la interfaz 2 del servidor
+	 
+   	 */
     public IFacadeGPS getGPS() {
     	// Add your code to return the TARGET reference HERE
     	return ServicioGPS;
     }
+    /** Método para acceder a la interfaz 3 del servidor
+	 
+   	 */
     public IFacadeOrdenadorAbordo getOrdenadorAbordo() {
     	// Add your code to return the TARGET reference HERE
     	return ServicioOrdenadorAbordo;
