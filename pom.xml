@@ -157,7 +157,9 @@
 									<arguments>  
 										<argument>${server.IP}</argument>  
 										<argument>${server.port}</argument>  
-										<argument>${server.Name}</argument>  
+										<argument>${server.name1}</argument>
+										<argument>${server.name2}</argument> 
+										<argument>${server.name3}</argument>   
 									</arguments>  
 								</configuration>  
 					</plugin>  
@@ -191,7 +193,9 @@
 									<arguments>  
 										<argument>${server.IP}</argument>  
 										<argument>${server.port}</argument>  
-										<argument>${server.Name}</argument>  
+										<argument>${server.name1}</argument>
+										<argument>${server.name2}</argument>
+										<argument>${server.name3}</argument>  
 									</arguments>  
 						</configuration>  
 					</plugin>  

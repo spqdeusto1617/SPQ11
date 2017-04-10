@@ -364,3 +364,369 @@
 14:41:49,431 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata ya ha terminado
 14:41:49,432 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 0 clases. Tiempos : input=291 ms, enhance=0 ms, total=291 ms. Compruebe el LOG para los detalles
 14:41:49,432 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado sin enhance ninguna clase. Compruebe el LOG para los detalles.
+17:51:45,042 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:51:45,120 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/C:/Users/propietario/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+17:51:45,216 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/propietario/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+17:51:45,220 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/propietario/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+17:51:45,246 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 5.1.0.m1 at URL file:/C:/Users/propietario/.m2/repository/org/datanucleus/datanucleus-core/5.1.0-m1/datanucleus-core-5.1.0-m1.jar.
+17:51:45,318 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/propietario/.m2/repository/org/datanucleus/datanucleus-core/5.1.0-m1/datanucleus-core-5.1.0-m1.jar!/plugin.xml.
+17:51:45,432 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/propietario/.m2/repository/org/datanucleus/datanucleus-core/5.1.0-m1/datanucleus-core-5.1.0-m1.jar!/plugin.xml.
+17:51:45,453 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 5.1.0.m1 at URL file:/C:/Users/propietario/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.0-m1/datanucleus-api-jdo-5.1.0-m1.jar.
+17:51:45,472 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/propietario/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.0-m1/datanucleus-api-jdo-5.1.0-m1.jar!/plugin.xml.
+17:51:45,474 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/propietario/.m2/repository/org/datanucleus/datanucleus-api-jdo/5.1.0-m1/datanucleus-api-jdo-5.1.0-m1.jar!/plugin.xml.
+17:51:45,479 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 5.1.0.m1 at URL file:/C:/Users/propietario/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.0-m1/datanucleus-rdbms-5.1.0-m1.jar.
+17:51:45,531 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/C:/Users/propietario/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.0-m1/datanucleus-rdbms-5.1.0-m1.jar!/plugin.xml.
+17:51:45,544 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/C:/Users/propietario/.m2/repository/org/datanucleus/datanucleus-rdbms/5.1.0-m1/datanucleus-rdbms-5.1.0-m1.jar!/plugin.xml.
+17:51:45,676 (main) DEBUG [DataNucleus.Persistence] - Tipos de Java inicializando ...
+17:51:45,866 (main) DEBUG [DataNucleus.Persistence] - Soporte para tipos de Java listo : tipos soportados = [B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Object;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.time.Duration, java.time.Instant, java.time.LocalDate, java.time.LocalDateTime, java.time.LocalTime, java.time.MonthDay, java.time.OffsetDateTime, java.time.OffsetTime, java.time.Period, java.time.Year, java.time.YearMonth, java.time.ZonedDateTime, java.time.ZoneId, java.time.ZoneOffset, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.Optional, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+17:51:45,866 (main) DEBUG [DataNucleus.Persistence] - Inicializando TypeConverters ...
+17:51:45,995 (main) DEBUG [DataNucleus.Persistence] - TypeConverters listo
+17:51:45,996 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for byte[] to : java.nio.ByteBuffer
+17:51:45,996 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for char[] to : java.nio.ByteBuffer
+17:51:45,996 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for double[] to : java.nio.ByteBuffer
+17:51:45,996 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for float[] to : java.nio.ByteBuffer
+17:51:45,997 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for int[] to : java.nio.ByteBuffer
+17:51:45,997 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for long[] to : java.nio.ByteBuffer
+17:51:45,997 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for short[] to : java.nio.ByteBuffer
+17:51:45,997 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for boolean[] to : java.nio.ByteBuffer
+17:51:45,997 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.Color to : int[],java.lang.String
+17:51:45,997 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.image.BufferedImage to : byte[],java.nio.ByteBuffer
+17:51:45,998 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.io.Serializable to : byte[],java.nio.ByteBuffer,java.lang.String
+17:51:45,998 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Boolean to : java.lang.Integer,java.lang.Character
+17:51:45,998 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Character to : java.lang.String
+17:51:45,998 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Class to : java.lang.String
+17:51:45,998 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Integer to : java.lang.String
+17:51:45,998 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Long to : java.lang.String
+17:51:45,998 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuffer to : java.lang.String
+17:51:45,999 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuilder to : java.lang.String
+17:51:45,999 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigDecimal to : java.nio.ByteBuffer,java.lang.Double,java.lang.String
+17:51:45,999 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigInteger to : java.nio.ByteBuffer,java.lang.Long,java.lang.String
+17:51:45,999 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URI to : java.lang.String
+17:51:45,999 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URL to : java.lang.String
+17:51:45,999 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Date to : java.lang.Long,java.util.Date,java.lang.String
+17:51:45,999 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Time to : java.lang.Long,java.util.Date,java.lang.String
+17:51:45,999 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Timestamp to : java.lang.Long,java.util.Date,java.lang.String
+17:51:45,999 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Duration to : java.lang.Long,java.lang.Double,java.lang.String
+17:51:46,000 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Instant to : java.sql.Timestamp,java.lang.Long,java.util.Date,java.lang.String
+17:51:46,000 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDate to : java.util.Date,java.lang.String,java.sql.Date
+17:51:46,000 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalDateTime to : java.sql.Timestamp,java.util.Date,java.lang.String
+17:51:46,000 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.LocalTime to : java.lang.Long,java.util.Date,java.sql.Time,java.lang.String
+17:51:46,000 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.MonthDay to : int[],java.util.Date,java.lang.String,java.sql.Date
+17:51:46,000 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetDateTime to : java.sql.Timestamp,java.util.Date,java.lang.String
+17:51:46,000 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.OffsetTime to : java.lang.Long,java.sql.Time,java.lang.String
+17:51:46,000 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Period to : java.lang.String
+17:51:46,000 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.Year to : java.lang.Integer,java.lang.String
+17:51:46,001 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.YearMonth to : int[],java.util.Date,java.lang.String,java.sql.Date
+17:51:46,001 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZonedDateTime to : java.sql.Timestamp,java.lang.String
+17:51:46,001 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneId to : java.lang.String
+17:51:46,001 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.time.ZoneOffset to : java.lang.String
+17:51:46,001 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.BitSet to : java.lang.String
+17:51:46,001 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Calendar to : java.sql.Timestamp,[Ljava.lang.Object;,java.util.Date,java.lang.String
+17:51:46,001 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Currency to : java.lang.String
+17:51:46,001 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Date to : java.lang.Long,java.lang.String
+17:51:46,002 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Locale to : java.lang.String
+17:51:46,002 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.TimeZone to : java.lang.String
+17:51:46,002 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.UUID to : java.lang.String
+17:51:46,014 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+17:51:46,015 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.1.0.m1) para el API "JDO" utilisando el JRE "{2}"
+17:51:46,016 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+17:51:46,017 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\datanucleus\datanucleus-maven-plugin\5.0.2\datanucleus-maven-plugin-5.0.2.jar
+17:51:46,018 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar
+17:51:46,018 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar
+17:51:46,019 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar
+17:51:46,019 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar
+17:51:46,019 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar
+17:51:46,020 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar
+17:51:46,020 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar
+17:51:46,020 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar
+17:51:46,021 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar
+17:51:46,021 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar
+17:51:46,022 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar
+17:51:46,023 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar
+17:51:46,024 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar
+17:51:46,024 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar
+17:51:46,024 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar
+17:51:46,025 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar
+17:51:46,025 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\users\propietario\Documents\DiseñoDeSoft\SPQ11\target\classes
+17:51:46,026 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\datanucleus\datanucleus-core\5.1.0-m1\datanucleus-core-5.1.0-m1.jar
+17:51:46,026 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\datanucleus\datanucleus-api-jdo\5.1.0-m1\datanucleus-api-jdo-5.1.0-m1.jar
+17:51:46,027 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\datanucleus\datanucleus-rdbms\5.1.0-m1\datanucleus-rdbms-5.1.0-m1.jar
+17:51:46,030 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+17:51:46,030 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\org\datanucleus\javax.jdo\3.2.0-m6\javax.jdo-3.2.0-m6.jar
+17:51:46,030 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar
+17:51:46,031 (main) DEBUG [DataNucleus.Enhancer] - >>  C:\Users\propietario\.m2\repository\mysql\mysql-connector-java\5.1.41\mysql-connector-java-5.1.41.jar
+17:51:46,032 (main) DEBUG [DataNucleus.Enhancer] - Reading fileListFile: C:\Users\PROPIE~1\AppData\Local\Temp\enhancer-8396056706394238215.flf
+17:51:46,039 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes
+17:51:46,072 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata de las clases "[cliente.Controller, cliente.ServiceLocator, cliente.VentanaCliente, servidor.data.Cancion, servidor.data.Contacto, servidor.data.Telemetrias, servidor.DTO.serverDTO, servidor.gateways.GatewayContactos, servidor.gateways.GatewayGPS, servidor.gateways.GatewayMusica, servidor.gateways.IGatewayGPS, servidor.remote.FacadeGPS, servidor.remote.FacadeOrdenadorAbordo, servidor.remote.FacadeTelemetrias, servidor.remote.IFacadeGPS, servidor.remote.IFacadeOrdenadorAbordo, servidor.remote.IFacadeTelemetrias, servidor.server.CocheServer, servidor.server.CocheService, servidorExterno.Contactos.ILineaContactos, servidorExterno.Contactos.LineaContactos, servidorExterno.GPS.GPS, servidorExterno.GPS.GPSservice, servidorExterno.Musica.Emisoras, servidorExterno.Musica.IEmisoras]" ...
+17:51:46,125 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.Controller" en /META-INF/package.jdo
+17:51:46,126 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.Controller" en /WEB-INF/package.jdo
+17:51:46,127 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.Controller" en /package.jdo
+17:51:46,128 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.Controller" en /cliente/package.jdo
+17:51:46,128 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.Controller" en /cliente.jdo
+17:51:46,129 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.Controller" en /cliente/Controller.jdo
+17:51:46,129 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "cliente.Controller"
+17:51:46,129 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "cliente.Controller" no tener Meta-Data
+17:51:46,129 (main) DEBUG [DataNucleus.MetaData] - La clase "cliente.Controller" no tiene MetaData o annotaciones.
+17:51:46,131 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.ServiceLocator" en /META-INF/package.jdo
+17:51:46,132 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.ServiceLocator" en /WEB-INF/package.jdo
+17:51:46,132 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.ServiceLocator" en /package.jdo
+17:51:46,133 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.ServiceLocator" en /cliente/package.jdo
+17:51:46,133 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.ServiceLocator" en /cliente.jdo
+17:51:46,134 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.ServiceLocator" en /cliente/ServiceLocator.jdo
+17:51:46,134 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "cliente.ServiceLocator"
+17:51:46,134 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "cliente.ServiceLocator" no tener Meta-Data
+17:51:46,134 (main) DEBUG [DataNucleus.MetaData] - La clase "cliente.ServiceLocator" no tiene MetaData o annotaciones.
+17:51:46,162 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.VentanaCliente" en /META-INF/package.jdo
+17:51:46,163 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.VentanaCliente" en /WEB-INF/package.jdo
+17:51:46,163 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.VentanaCliente" en /package.jdo
+17:51:46,164 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.VentanaCliente" en /cliente/package.jdo
+17:51:46,164 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.VentanaCliente" en /cliente.jdo
+17:51:46,165 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "cliente.VentanaCliente" en /cliente/VentanaCliente.jdo
+17:51:46,165 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "cliente.VentanaCliente"
+17:51:46,165 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "cliente.VentanaCliente" no tener Meta-Data
+17:51:46,165 (main) DEBUG [DataNucleus.MetaData] - La clase "cliente.VentanaCliente" no tiene MetaData o annotaciones.
+17:51:46,167 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Cancion" en /META-INF/package.jdo
+17:51:46,167 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Cancion" en /WEB-INF/package.jdo
+17:51:46,168 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Cancion" en /package.jdo
+17:51:46,168 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Cancion" en /servidor/package.jdo
+17:51:46,168 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Cancion" en /servidor.jdo
+17:51:46,169 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Cancion" en /servidor/data/package.jdo
+17:51:46,169 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Cancion" en /servidor/data.jdo
+17:51:46,170 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Cancion" en /servidor/data/Cancion.jdo
+17:51:46,170 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.data.Cancion"
+17:51:46,170 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.data.Cancion" no tener Meta-Data
+17:51:46,170 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.data.Cancion" no tiene MetaData o annotaciones.
+17:51:46,172 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Contacto" en /META-INF/package.jdo
+17:51:46,173 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Contacto" en /WEB-INF/package.jdo
+17:51:46,173 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Contacto" en /package.jdo
+17:51:46,173 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Contacto" en /servidor/package.jdo
+17:51:46,174 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Contacto" en /servidor.jdo
+17:51:46,174 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Contacto" en /servidor/data/package.jdo
+17:51:46,174 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Contacto" en /servidor/data.jdo
+17:51:46,175 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Contacto" en /servidor/data/Contacto.jdo
+17:51:46,175 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.data.Contacto"
+17:51:46,175 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.data.Contacto" no tener Meta-Data
+17:51:46,176 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.data.Contacto" no tiene MetaData o annotaciones.
+17:51:46,178 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Telemetrias" en /META-INF/package.jdo
+17:51:46,178 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Telemetrias" en /WEB-INF/package.jdo
+17:51:46,178 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Telemetrias" en /package.jdo
+17:51:46,179 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Telemetrias" en /servidor/package.jdo
+17:51:46,179 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Telemetrias" en /servidor.jdo
+17:51:46,179 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Telemetrias" en /servidor/data/package.jdo
+17:51:46,180 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Telemetrias" en /servidor/data.jdo
+17:51:46,180 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.data.Telemetrias" en /servidor/data/Telemetrias.jdo
+17:51:46,180 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.data.Telemetrias"
+17:51:46,181 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.data.Telemetrias" no tener Meta-Data
+17:51:46,181 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.data.Telemetrias" no tiene MetaData o annotaciones.
+17:51:46,182 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.DTO.serverDTO" en /META-INF/package.jdo
+17:51:46,183 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.DTO.serverDTO" en /WEB-INF/package.jdo
+17:51:46,183 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.DTO.serverDTO" en /package.jdo
+17:51:46,183 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.DTO.serverDTO" en /servidor/package.jdo
+17:51:46,184 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.DTO.serverDTO" en /servidor.jdo
+17:51:46,184 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.DTO.serverDTO" en /servidor/DTO/package.jdo
+17:51:46,184 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.DTO.serverDTO" en /servidor/DTO.jdo
+17:51:46,185 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.DTO.serverDTO" en /servidor/DTO/serverDTO.jdo
+17:51:46,185 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.DTO.serverDTO"
+17:51:46,185 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.DTO.serverDTO" no tener Meta-Data
+17:51:46,185 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.DTO.serverDTO" no tiene MetaData o annotaciones.
+17:51:46,187 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayContactos" en /META-INF/package.jdo
+17:51:46,187 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayContactos" en /WEB-INF/package.jdo
+17:51:46,187 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayContactos" en /package.jdo
+17:51:46,188 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayContactos" en /servidor/package.jdo
+17:51:46,188 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayContactos" en /servidor.jdo
+17:51:46,188 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayContactos" en /servidor/gateways/package.jdo
+17:51:46,189 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayContactos" en /servidor/gateways.jdo
+17:51:46,190 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayContactos" en /servidor/gateways/GatewayContactos.jdo
+17:51:46,190 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayContactos"
+17:51:46,190 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.gateways.GatewayContactos" no tener Meta-Data
+17:51:46,190 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.gateways.GatewayContactos" no tiene MetaData o annotaciones.
+17:51:46,192 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayGPS" en /META-INF/package.jdo
+17:51:46,193 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayGPS" en /WEB-INF/package.jdo
+17:51:46,193 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayGPS" en /package.jdo
+17:51:46,194 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayGPS" en /servidor/package.jdo
+17:51:46,194 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayGPS" en /servidor.jdo
+17:51:46,194 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayGPS" en /servidor/gateways/package.jdo
+17:51:46,195 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayGPS" en /servidor/gateways.jdo
+17:51:46,195 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayGPS" en /servidor/gateways/GatewayGPS.jdo
+17:51:46,195 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayGPS"
+17:51:46,195 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.gateways.GatewayGPS" no tener Meta-Data
+17:51:46,196 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.gateways.GatewayGPS" no tiene MetaData o annotaciones.
+17:51:46,197 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayMusica" en /META-INF/package.jdo
+17:51:46,198 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayMusica" en /WEB-INF/package.jdo
+17:51:46,198 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayMusica" en /package.jdo
+17:51:46,199 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayMusica" en /servidor/package.jdo
+17:51:46,199 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayMusica" en /servidor.jdo
+17:51:46,200 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayMusica" en /servidor/gateways/package.jdo
+17:51:46,200 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayMusica" en /servidor/gateways.jdo
+17:51:46,201 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayMusica" en /servidor/gateways/GatewayMusica.jdo
+17:51:46,201 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.gateways.GatewayMusica"
+17:51:46,201 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.gateways.GatewayMusica" no tener Meta-Data
+17:51:46,201 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.gateways.GatewayMusica" no tiene MetaData o annotaciones.
+17:51:46,202 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.IGatewayGPS" en /META-INF/package.jdo
+17:51:46,203 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.IGatewayGPS" en /WEB-INF/package.jdo
+17:51:46,203 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.IGatewayGPS" en /package.jdo
+17:51:46,204 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.IGatewayGPS" en /servidor/package.jdo
+17:51:46,204 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.IGatewayGPS" en /servidor.jdo
+17:51:46,205 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.IGatewayGPS" en /servidor/gateways/package.jdo
+17:51:46,205 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.IGatewayGPS" en /servidor/gateways.jdo
+17:51:46,205 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.gateways.IGatewayGPS" en /servidor/gateways/IGatewayGPS.jdo
+17:51:46,205 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.gateways.IGatewayGPS"
+17:51:46,206 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.gateways.IGatewayGPS" no tener Meta-Data
+17:51:46,206 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.gateways.IGatewayGPS" no tiene MetaData o annotaciones.
+17:51:46,208 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeGPS" en /META-INF/package.jdo
+17:51:46,209 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeGPS" en /WEB-INF/package.jdo
+17:51:46,209 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeGPS" en /package.jdo
+17:51:46,210 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeGPS" en /servidor/package.jdo
+17:51:46,210 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeGPS" en /servidor.jdo
+17:51:46,210 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeGPS" en /servidor/remote/package.jdo
+17:51:46,210 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeGPS" en /servidor/remote.jdo
+17:51:46,211 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeGPS" en /servidor/remote/FacadeGPS.jdo
+17:51:46,211 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeGPS"
+17:51:46,211 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.remote.FacadeGPS" no tener Meta-Data
+17:51:46,211 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.remote.FacadeGPS" no tiene MetaData o annotaciones.
+17:51:46,213 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeOrdenadorAbordo" en /META-INF/package.jdo
+17:51:46,214 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeOrdenadorAbordo" en /WEB-INF/package.jdo
+17:51:46,214 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeOrdenadorAbordo" en /package.jdo
+17:51:46,215 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeOrdenadorAbordo" en /servidor/package.jdo
+17:51:46,215 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeOrdenadorAbordo" en /servidor.jdo
+17:51:46,215 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeOrdenadorAbordo" en /servidor/remote/package.jdo
+17:51:46,216 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeOrdenadorAbordo" en /servidor/remote.jdo
+17:51:46,216 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeOrdenadorAbordo" en /servidor/remote/FacadeOrdenadorAbordo.jdo
+17:51:46,216 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeOrdenadorAbordo"
+17:51:46,216 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.remote.FacadeOrdenadorAbordo" no tener Meta-Data
+17:51:46,216 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.remote.FacadeOrdenadorAbordo" no tiene MetaData o annotaciones.
+17:51:46,220 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeTelemetrias" en /META-INF/package.jdo
+17:51:46,220 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeTelemetrias" en /WEB-INF/package.jdo
+17:51:46,221 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeTelemetrias" en /package.jdo
+17:51:46,221 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeTelemetrias" en /servidor/package.jdo
+17:51:46,221 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeTelemetrias" en /servidor.jdo
+17:51:46,222 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeTelemetrias" en /servidor/remote/package.jdo
+17:51:46,222 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeTelemetrias" en /servidor/remote.jdo
+17:51:46,223 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeTelemetrias" en /servidor/remote/FacadeTelemetrias.jdo
+17:51:46,223 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.remote.FacadeTelemetrias"
+17:51:46,223 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.remote.FacadeTelemetrias" no tener Meta-Data
+17:51:46,223 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.remote.FacadeTelemetrias" no tiene MetaData o annotaciones.
+17:51:46,224 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeGPS" en /META-INF/package.jdo
+17:51:46,224 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeGPS" en /WEB-INF/package.jdo
+17:51:46,224 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeGPS" en /package.jdo
+17:51:46,225 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeGPS" en /servidor/package.jdo
+17:51:46,225 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeGPS" en /servidor.jdo
+17:51:46,225 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeGPS" en /servidor/remote/package.jdo
+17:51:46,226 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeGPS" en /servidor/remote.jdo
+17:51:46,226 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeGPS" en /servidor/remote/IFacadeGPS.jdo
+17:51:46,227 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeGPS"
+17:51:46,227 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.remote.IFacadeGPS" no tener Meta-Data
+17:51:46,227 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.remote.IFacadeGPS" no tiene MetaData o annotaciones.
+17:51:46,228 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeOrdenadorAbordo" en /META-INF/package.jdo
+17:51:46,228 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeOrdenadorAbordo" en /WEB-INF/package.jdo
+17:51:46,228 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeOrdenadorAbordo" en /package.jdo
+17:51:46,229 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeOrdenadorAbordo" en /servidor/package.jdo
+17:51:46,229 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeOrdenadorAbordo" en /servidor.jdo
+17:51:46,229 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeOrdenadorAbordo" en /servidor/remote/package.jdo
+17:51:46,230 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeOrdenadorAbordo" en /servidor/remote.jdo
+17:51:46,230 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeOrdenadorAbordo" en /servidor/remote/IFacadeOrdenadorAbordo.jdo
+17:51:46,231 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeOrdenadorAbordo"
+17:51:46,231 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.remote.IFacadeOrdenadorAbordo" no tener Meta-Data
+17:51:46,231 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.remote.IFacadeOrdenadorAbordo" no tiene MetaData o annotaciones.
+17:51:46,232 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeTelemetrias" en /META-INF/package.jdo
+17:51:46,232 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeTelemetrias" en /WEB-INF/package.jdo
+17:51:46,232 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeTelemetrias" en /package.jdo
+17:51:46,233 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeTelemetrias" en /servidor/package.jdo
+17:51:46,234 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeTelemetrias" en /servidor.jdo
+17:51:46,234 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeTelemetrias" en /servidor/remote/package.jdo
+17:51:46,234 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeTelemetrias" en /servidor/remote.jdo
+17:51:46,234 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeTelemetrias" en /servidor/remote/IFacadeTelemetrias.jdo
+17:51:46,235 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.remote.IFacadeTelemetrias"
+17:51:46,235 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.remote.IFacadeTelemetrias" no tener Meta-Data
+17:51:46,235 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.remote.IFacadeTelemetrias" no tiene MetaData o annotaciones.
+17:51:46,236 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheServer" en /META-INF/package.jdo
+17:51:46,237 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheServer" en /WEB-INF/package.jdo
+17:51:46,237 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheServer" en /package.jdo
+17:51:46,237 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheServer" en /servidor/package.jdo
+17:51:46,238 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheServer" en /servidor.jdo
+17:51:46,238 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheServer" en /servidor/server/package.jdo
+17:51:46,239 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheServer" en /servidor/server.jdo
+17:51:46,239 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheServer" en /servidor/server/CocheServer.jdo
+17:51:46,239 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.server.CocheServer"
+17:51:46,239 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.server.CocheServer" no tener Meta-Data
+17:51:46,239 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.server.CocheServer" no tiene MetaData o annotaciones.
+17:51:46,241 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheService" en /META-INF/package.jdo
+17:51:46,241 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheService" en /WEB-INF/package.jdo
+17:51:46,242 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheService" en /package.jdo
+17:51:46,242 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheService" en /servidor/package.jdo
+17:51:46,242 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheService" en /servidor.jdo
+17:51:46,243 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheService" en /servidor/server/package.jdo
+17:51:46,243 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheService" en /servidor/server.jdo
+17:51:46,243 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidor.server.CocheService" en /servidor/server/CocheService.jdo
+17:51:46,243 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidor.server.CocheService"
+17:51:46,244 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidor.server.CocheService" no tener Meta-Data
+17:51:46,244 (main) DEBUG [DataNucleus.MetaData] - La clase "servidor.server.CocheService" no tiene MetaData o annotaciones.
+17:51:46,245 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.ILineaContactos" en /META-INF/package.jdo
+17:51:46,246 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.ILineaContactos" en /WEB-INF/package.jdo
+17:51:46,246 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.ILineaContactos" en /package.jdo
+17:51:46,247 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.ILineaContactos" en /servidorExterno/package.jdo
+17:51:46,247 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.ILineaContactos" en /servidorExterno.jdo
+17:51:46,247 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.ILineaContactos" en /servidorExterno/Contactos/package.jdo
+17:51:46,248 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.ILineaContactos" en /servidorExterno/Contactos.jdo
+17:51:46,248 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.ILineaContactos" en /servidorExterno/Contactos/ILineaContactos.jdo
+17:51:46,248 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.ILineaContactos"
+17:51:46,248 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidorExterno.Contactos.ILineaContactos" no tener Meta-Data
+17:51:46,248 (main) DEBUG [DataNucleus.MetaData] - La clase "servidorExterno.Contactos.ILineaContactos" no tiene MetaData o annotaciones.
+17:51:46,250 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.LineaContactos" en /META-INF/package.jdo
+17:51:46,251 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.LineaContactos" en /WEB-INF/package.jdo
+17:51:46,251 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.LineaContactos" en /package.jdo
+17:51:46,251 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.LineaContactos" en /servidorExterno/package.jdo
+17:51:46,252 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.LineaContactos" en /servidorExterno.jdo
+17:51:46,252 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.LineaContactos" en /servidorExterno/Contactos/package.jdo
+17:51:46,252 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.LineaContactos" en /servidorExterno/Contactos.jdo
+17:51:46,253 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.LineaContactos" en /servidorExterno/Contactos/LineaContactos.jdo
+17:51:46,253 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidorExterno.Contactos.LineaContactos"
+17:51:46,253 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidorExterno.Contactos.LineaContactos" no tener Meta-Data
+17:51:46,253 (main) DEBUG [DataNucleus.MetaData] - La clase "servidorExterno.Contactos.LineaContactos" no tiene MetaData o annotaciones.
+17:51:46,254 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPS" en /META-INF/package.jdo
+17:51:46,255 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPS" en /WEB-INF/package.jdo
+17:51:46,255 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPS" en /package.jdo
+17:51:46,256 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPS" en /servidorExterno/package.jdo
+17:51:46,256 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPS" en /servidorExterno.jdo
+17:51:46,257 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPS" en /servidorExterno/GPS/package.jdo
+17:51:46,258 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPS" en /servidorExterno/GPS.jdo
+17:51:46,259 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPS" en /servidorExterno/GPS/GPS.jdo
+17:51:46,259 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPS"
+17:51:46,259 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidorExterno.GPS.GPS" no tener Meta-Data
+17:51:46,260 (main) DEBUG [DataNucleus.MetaData] - La clase "servidorExterno.GPS.GPS" no tiene MetaData o annotaciones.
+17:51:46,264 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPSservice" en /META-INF/package.jdo
+17:51:46,265 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPSservice" en /WEB-INF/package.jdo
+17:51:46,266 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPSservice" en /package.jdo
+17:51:46,266 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPSservice" en /servidorExterno/package.jdo
+17:51:46,266 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPSservice" en /servidorExterno.jdo
+17:51:46,267 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPSservice" en /servidorExterno/GPS/package.jdo
+17:51:46,268 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPSservice" en /servidorExterno/GPS.jdo
+17:51:46,268 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPSservice" en /servidorExterno/GPS/GPSservice.jdo
+17:51:46,268 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidorExterno.GPS.GPSservice"
+17:51:46,268 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidorExterno.GPS.GPSservice" no tener Meta-Data
+17:51:46,268 (main) DEBUG [DataNucleus.MetaData] - La clase "servidorExterno.GPS.GPSservice" no tiene MetaData o annotaciones.
+17:51:46,270 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.Emisoras" en /META-INF/package.jdo
+17:51:46,276 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.Emisoras" en /WEB-INF/package.jdo
+17:51:46,277 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.Emisoras" en /package.jdo
+17:51:46,278 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.Emisoras" en /servidorExterno/package.jdo
+17:51:46,278 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.Emisoras" en /servidorExterno.jdo
+17:51:46,279 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.Emisoras" en /servidorExterno/Musica/package.jdo
+17:51:46,279 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.Emisoras" en /servidorExterno/Musica.jdo
+17:51:46,280 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.Emisoras" en /servidorExterno/Musica/Emisoras.jdo
+17:51:46,280 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.Emisoras"
+17:51:46,280 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidorExterno.Musica.Emisoras" no tener Meta-Data
+17:51:46,281 (main) DEBUG [DataNucleus.MetaData] - La clase "servidorExterno.Musica.Emisoras" no tiene MetaData o annotaciones.
+17:51:46,289 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.IEmisoras" en /META-INF/package.jdo
+17:51:46,291 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.IEmisoras" en /WEB-INF/package.jdo
+17:51:46,292 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.IEmisoras" en /package.jdo
+17:51:46,293 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.IEmisoras" en /servidorExterno/package.jdo
+17:51:46,293 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.IEmisoras" en /servidorExterno.jdo
+17:51:46,294 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.IEmisoras" en /servidorExterno/Musica/package.jdo
+17:51:46,294 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.IEmisoras" en /servidorExterno/Musica.jdo
+17:51:46,295 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.IEmisoras" en /servidorExterno/Musica/IEmisoras.jdo
+17:51:46,295 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "servidorExterno.Musica.IEmisoras"
+17:51:46,295 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "servidorExterno.Musica.IEmisoras" no tener Meta-Data
+17:51:46,295 (main) DEBUG [DataNucleus.MetaData] - La clase "servidorExterno.Musica.IEmisoras" no tiene MetaData o annotaciones.
+17:51:46,295 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata ya ha terminado
+17:51:46,297 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 0 clases. Tiempos : input=257 ms, enhance=0 ms, total=257 ms. Compruebe el LOG para los detalles
+17:51:46,297 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado sin enhance ninguna clase. Compruebe el LOG para los detalles.

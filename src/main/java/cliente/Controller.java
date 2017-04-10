@@ -22,6 +22,8 @@ public class Controller {
 		rsl.setService(args[0], args[1], args[2], args[3], args[4]);
 		new VentanaCliente(this);
 		comprobarBateria();
+		comprobarVeocidad();
+		obtenerNuevoKilometraje(1066);
 		
 	}
 	
