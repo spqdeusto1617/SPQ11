@@ -14,7 +14,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<server.IP>127.0.0.1</server.IP>
 		<server.port>1099</server.port>
-		<server.Name>MessagerJDORMI</server.Name>
+		<server.name1>ServiceTelemetrias</server.name1>
+		<server.name2>ServiceGPS</server.name2>
+		<server.name3>ServiceOrdenadorDeAbordo</server.name3>
 		<policy.file>${basedir}/src/main/resources/security/java.policy</policy.file>
 		<config.files.dir>${basedir}/src/main/resources</config.files.dir>
 	</properties>
