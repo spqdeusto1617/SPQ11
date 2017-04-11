@@ -34,17 +34,22 @@ public class CocheServer {
 					System.out.println(name1);
 					IFacadeTelemetrias ConexionTelemetrias = new FacadeTelemetrias(servicios);
 					Naming.rebind(name1, ConexionTelemetrias);
-					System.out.println("- ServidorTelemetrias'" + name1 + "' active and waiting...");
+					System.out.println("SERVIDOR TELEMETRÍAS: "+ name1 + "' active and waiting...");
 					
 					System.out.println(name2);
-					IFacadeGPS ConexionGPS = new FacadeGPS(servicios );
+					IFacadeGPS ConexionGPS = new FacadeGPS(servicios);
 					Naming.rebind(name2, ConexionGPS);
-					System.out.println("- ServidorGPS '" + name2 + "' active and waiting...");
+					System.out.println("SERVIDOR GPS: "+ name2 + "' active and waiting...");
 					
 					System.out.println(name3);
-					IFacadeOrdenadorAbordo ConexionOrdenadorAbordo = new FacadeOrdenadorAbordo(servicios );
+					IFacadeOrdenadorAbordo ConexionOrdenadorAbordo = new FacadeOrdenadorAbordo(servicios);
 					Naming.rebind(name2, ConexionOrdenadorAbordo);
-					System.out.println("- ServidorOrdenador de Abordo '" + name3 + "' active and waiting...");
+					System.out.println("SERVIDOR ORDENADOR DE ABORDO: "+ name3 + "' active and waiting...");
+					
+					//Hace que se queden esperando una linea
+					java.io.InputStreamReader inputStreamReader = new java.io.InputStreamReader ( System.in );
+					java.io.BufferedReader stdin = new java.io.BufferedReader ( inputStreamReader );
+					String line  = stdin.readLine();
 				} catch (Exception e) {
 					System.err.println("$ Servidor exception: " + e.getMessage());
 					e.printStackTrace();

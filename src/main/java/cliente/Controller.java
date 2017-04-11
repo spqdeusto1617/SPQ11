@@ -22,7 +22,7 @@ public class Controller {
 		rsl.setService(args[0], args[1], args[2], args[3], args[4]);
 		new VentanaCliente(this);
 		comprobarBateria();
-		comprobarVeocidad();
+		comprobarVelocidad();
 		obtenerNuevoKilometraje(1066);
 		
 	}
@@ -60,18 +60,18 @@ public class Controller {
 	 * Hace una llamada al service locator para que
 	 *  conecte con el servidor y mire la velocidad  
 	 */
-	public void comprobarVeocidad()
+	public void comprobarVelocidad()
 	{
 		try {
 			// Add your code HERE - Related to getting the service 
-		int velicidad= rsl.getTelemetrias().comprobarVelocidad();
-		if(velicidad>80){
+		int velocidad= rsl.getTelemetrias().comprobarVelocidad();
+		if(velocidad>80){
 			System.out.println("Exceso de velocidad");
 		}
-		System.out.println("Velocidad: "+velicidad);
+		System.out.println("Velocidad: "+velocidad);
 		} catch (Exception e) {
 			
-			System.out.println("$ Error Comprobando velicidad Controller ");
+			System.out.println("$ Error Comprobando velocidad Controller ");
 			
 		}	
 		
