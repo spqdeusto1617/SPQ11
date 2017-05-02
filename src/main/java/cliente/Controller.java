@@ -3,6 +3,8 @@ package cliente;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 
+import servidor.data.Posicion;
+
 
 
 public class Controller {
@@ -24,6 +26,7 @@ public class Controller {
 		comprobarBateria();
 		comprobarVelocidad();
 		obtenerNuevoKilometraje(1066);
+		obtenerPosicionActualGPS("1234");
 		
 	}
 	
@@ -98,7 +101,26 @@ public class Controller {
 		
 		
 	}
-    
+	
+	/** 
+	 * Hace una llamada al service locator para que
+	 *  conecte con el servidor y mire la posicion actual 
+	 *  @param contraseña String   
+	 */
+	public void obtenerPosicionActualGPS(String contraseña)
+	{
+		try {
+			// Add your code HERE - Related to getting the service 
+			Posicion posicionActual= rsl.getGPS().obtenerPosicionActualGPS(contraseña);
+		
+		System.out.println("Posicion actual: "+posicionActual.getUbicacion());
+		} catch (Exception e) {
+			
+			System.out.println("$ Error Comprobando posicion Controller ");
+			
+		}	
+		
+	}
 	/** Método principal
 	 * 
 	 * @param args String[]

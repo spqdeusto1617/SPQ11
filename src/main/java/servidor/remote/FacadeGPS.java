@@ -2,6 +2,7 @@ package servidor.remote;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+import servidor.data.Posicion;
 import servidor.server.CocheService;
 
 
@@ -14,5 +15,8 @@ public FacadeGPS( CocheService progServ) throws RemoteException {
 		this.progServ = progServ;
 		
 	}
-
+public Posicion obtenerPosicionActualGPS(String contraseña) throws RemoteException {
+	System.out.println("Enviando peticion de Posicion actual");
+	return progServ.getPosicionActualGPS(contraseña);
+}
 }
