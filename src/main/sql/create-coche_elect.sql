@@ -1,11 +1,10 @@
-/* DELETE 'messagesDB' database*/
-DROP SCHEMA IF EXISTS messagesDB;
+/* DELETE 'coche_elect' database*/
+DROP SCHEMA IF EXISTS coche_elect;
 /* DELETE USER 'spq' AT LOCAL SERVER*/
 DROP USER IF EXISTS 'spq'@'%';
-
-/* CREATE 'messagesDB' DATABASE */
-CREATE SCHEMA messagesDB;
+/* CREATE 'coche_elect' DATABASE */
+CREATE SCHEMA coche_elect;
 /* CREATE THE USER 'spq' AT LOCAL SERVER WITH PASSWORD 'spq' */
 CREATE USER IF NOT EXISTS 'spq'@'%' IDENTIFIED BY 'spq';
 
-GRANT ALL ON messagesDB.* TO 'spq'@'%';
+GRANT ALL ON coche_elect.* TO 'spq'@'%';
