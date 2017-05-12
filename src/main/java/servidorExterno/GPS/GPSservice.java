@@ -11,6 +11,7 @@ public class GPSservice extends Thread {
 	private DataOutputStream out;
 	private Socket tcpSocket;
 	private static String DELIMITER = "#";
+	
 	public GPSservice(Socket socket) {
 		try {
 			this.tcpSocket = socket;
@@ -28,6 +29,7 @@ public class GPSservice extends Thread {
 			        + tcpSocket.getInetAddress().getHostAddress() + ":" + tcpSocket.getPort()
 			        + "' -> '" + data + "'");
 			data = this.obtenerPosicion(data);
+			
 			this.out.writeUTF(data);
 			System.out.println("   - TranslationService - Sent data to '"
 			        + tcpSocket.getInetAddress().getHostAddress() + ":" + tcpSocket.getPort()
@@ -50,7 +52,7 @@ public class GPSservice extends Thread {
 	public String obtenerPosicion(String msg) {
 		String posicion = null;
 		try{
-			if( msg.equals(1234)){
+			if( msg.equals("1234")){
 				posicion = "Bilbo";	
 			}	
 		}catch(Exception e){

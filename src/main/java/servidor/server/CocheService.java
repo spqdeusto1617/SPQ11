@@ -8,10 +8,13 @@ import servidor.gateways.GatewayGPS;
 
 public class CocheService {
 	Telemetrias telemetrias;
-	Posicion posicionActual;
+	Posicion posicionActual= new Posicion();
 	private GatewayGPS gatewayGPS;
-	public CocheService(){
-		
+	String ipSocket;
+	int puestoSocket;
+	public CocheService(String ipSocket,int puestoSocket){
+		this.ipSocket=ipSocket;
+		this.puestoSocket=puestoSocket;
 	}
 	 /** Método para devolver el estado actual de la bateria
 	 
@@ -44,13 +47,18 @@ public class CocheService {
 	public Posicion getPosicionActualGPS(String contraseña)throws RemoteException {
 		System.out.println("Obteniendo Posicion actual ...");
 		System.out.println("Conectando con servicio externo");
-		gatewayGPS =new GatewayGPS("0.0.0.0",35600);
+		gatewayGPS =new GatewayGPS(ipSocket,puestoSocket);
 		String obtenerPosicion = gatewayGPS.sendMessage(contraseña);
 		if(obtenerPosicion.equals("Bilbo")){
-			 posicionActual = new Posicion("Bilbo","MuseoBilbo","San Mames");
+			System.out.println("Analizando...");
+			String lugarInt1="MuseoBilbo";
+			String lugarInt2="San Mames";
+			 posicionActual.setUbicacion("Bilbo");
+			 posicionActual.getLugaresCercanosDeInteres().add(lugarInt1);
+			 posicionActual.getLugaresCercanosDeInteres().add(lugarInt2);
+			 System.out.println("Posicion encontrada");
 			return  posicionActual;
 		}else{
-			
 			return null;
 		}
 	

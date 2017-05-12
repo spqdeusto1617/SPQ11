@@ -6,13 +6,13 @@ public class GPS {
 	private static int numClients = 0;
 
 	public static void main(String args[]) {
-		if (args.length < 1) {
+		if (args.length != 2) {
 			System.err.println(" # Usage: GPS [PORT]");
 			System.exit(1);
 		}
 
 		// args[1] = Server socket port
-		int serverPort = Integer.parseInt(args[0]);
+		int serverPort = Integer.parseInt(args[1]);
 
 		try (ServerSocket tcpServerSocket = new ServerSocket(serverPort);) {
 			System.out.println(" - GPS	er: Waiting for connections '"

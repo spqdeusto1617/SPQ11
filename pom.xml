@@ -17,6 +17,8 @@
 		<server.name1>ServiceTelemetrias</server.name1>
 		<server.name2>ServiceGPS</server.name2>
 		<server.name3>ServiceOrdenadorDeAbordo</server.name3>
+		<server.servidorGPS.IP>0.0.0.0</server.servidorGPS.IP>
+		<server.servidorGPS.port>35600</server.servidorGPS.port>
 		<policy.file>${basedir}/src/main/resources/security/java.policy</policy.file>
 		<config.files.dir>${basedir}/src/main/resources</config.files.dir>
 	</properties>
@@ -161,7 +163,9 @@
 										<argument>${server.port}</argument>  
 										<argument>${server.name1}</argument>
 										<argument>${server.name2}</argument> 
-										<argument>${server.name3}</argument>   
+										<argument>${server.name3}</argument> 
+										<argument>${server.servidorGPS.IP}</argument>  
+										<argument>${server.servidorGPS.port}</argument>    
 									</arguments>  
 								</configuration>  
 					</plugin>  
@@ -205,11 +209,38 @@
 			</build>  
 		</profile>  
 		
-		<!-- run as 'mvn exec:java -PGPS' -->
+		<!-- run as 'mvn exec:java -PserverGPS' -->
 		<profile>  
-			<id>servidorExternoGPS</id>  
+			<id>serverGPS</id>  
 			<build>  
+				<resources>
+					<resource>
+						<directory>${config.files.dir}</directory>
+						<includes>
+							<include>**/*.jdo</include>
+							<include>**/*.orm</include>
+							<include>**/*.properties</include>
+						</includes>
+					</resource>
+				</resources>
+
 				<plugins>  
+					<plugin>
+						<artifactId>maven-clean-plugin</artifactId>
+						<version>2.4.1</version>
+						<configuration>
+							<filesets>
+								<fileset>
+									<directory>${basedir}</directory>
+									<includes>
+										<include>*.log</include>
+										<include>*.ods</include>
+									</includes>
+								</fileset>
+							</filesets>
+						</configuration>
+					</plugin>
+
 					<plugin>  
 						<groupId>org.codehaus.mojo</groupId>  
 						<artifactId>exec-maven-plugin</artifactId>  
@@ -217,27 +248,25 @@
 						<configuration>  
 									<mainClass>servidorExterno.GPS.GPS</mainClass>
 									<systemProperties>
-										<systemProperty>
-											<key>java.security.manager</key>
-											<value>java.rmi.RMISecurityManager</value>
-										</systemProperty>
+										
+					
 										<systemProperty>
 											<key>java.security.policy</key>
 											<value>${policy.file}</value>
 										</systemProperty>
 									</systemProperties>
 									<arguments>  
-										<argument>${server.IP}</argument>  
-										<argument>${server.port}</argument>  
-										<argument>${server.name1}</argument>
-										<argument>${server.name2}</argument>
-										<argument>${server.name3}</argument>  
+										<argument>${server.servidorGPS.IP}</argument>  
+										<argument>${server.servidorGPS.port}</argument>    
 									</arguments>  
-						</configuration>  
+								</configuration>  
 					</plugin>  
+		
+						
 				</plugins>  
 			</build>  
-		</profile>  
+		</profile>  	
+		
 		
 		
 	</profiles>  

@@ -11,7 +11,7 @@ public class Controller {
 	@SuppressWarnings("unused")
 	private ServiceLocator rsl;
 	private String name;
-	
+	private Posicion posicionActual;
 	/** 
 	 * Relaciona la aplicación con el ServiceLocator y abre la ventana
 	 * @param args String[]  
@@ -111,13 +111,22 @@ public class Controller {
 	{
 		try {
 			// Add your code HERE - Related to getting the service 
-			Posicion posicionActual= rsl.getGPS().obtenerPosicionActualGPS(contraseña);
-		
+			posicionActual=new Posicion();
+			 posicionActual.setUbicacion(rsl.getGPS().obtenerPosicionActualGPS(contraseña));
+			 if(posicionActual.getUbicacion().equals("Bilbo")){
+					String lugarInt1="MuseoBilbo";
+					String lugarInt2="San Mames";
+					 posicionActual.getLugaresCercanosDeInteres().add(lugarInt1);
+					 posicionActual.getLugaresCercanosDeInteres().add(lugarInt2);
+				}
+			System.out.println("Posicion encontrada");
 		System.out.println("Posicion actual: "+posicionActual.getUbicacion());
+		System.out.println("Sitios de interes: "+ posicionActual.getLugaresCercanosDeInteres().get(0));
+		System.out.println("Sitios de interes: "+ posicionActual.getLugaresCercanosDeInteres().get(1));
+
 		} catch (Exception e) {
-			
 			System.out.println("$ Error Comprobando posicion Controller ");
-			
+			System.out.println(posicionActual.getUbicacion());
 		}	
 		
 	}
