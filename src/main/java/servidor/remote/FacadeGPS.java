@@ -9,14 +9,19 @@ import servidor.server.CocheService;
 public class FacadeGPS extends UnicastRemoteObject implements IFacadeGPS {
 	private static final long serialVersionUID = 1L;
 	private CocheService progServ;
-
-public FacadeGPS( CocheService progServ) throws RemoteException {
+	private Posicion posicionActual= new Posicion();
+public FacadeGPS(CocheService progServ) throws RemoteException {
 		super();
 		this.progServ = progServ;
 		
 	}
-public Posicion obtenerPosicionActualGPS(String contraseña) throws RemoteException {
+public String obtenerPosicionActualGPS(String contraseña) throws RemoteException {
 	System.out.println("Enviando peticion de Posicion actual");
-	return progServ.getPosicionActualGPS(contraseña);
+	posicionActual= progServ.getPosicionActualGPS(contraseña);
+	System.out.println("Devolviendo peticion de Posicion actual: "+ posicionActual.getUbicacion());
+	System.out.println("Sitios de interes: "+ posicionActual.getLugaresCercanosDeInteres().get(0));
+	return posicionActual.getUbicacion();
+		
 }
 }
+

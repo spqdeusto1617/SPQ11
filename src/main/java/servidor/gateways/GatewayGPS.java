@@ -24,12 +24,12 @@ public String sendMessage(String text) {
 		        DataInputStream in = new DataInputStream(socket.getInputStream());
 		        DataOutputStream out = new DataOutputStream(socket.getOutputStream())) {
 
-			// Send request (a Srting) to the server
+			// Send request (a String) to the server
 			out.writeUTF(text);
 			System.out.println(
 			        " - TCPSocketClient: Sent data to '" + socket.getInetAddress().getHostAddress()
 			                + ":" + socket.getPort() + "' -> '" + text + "'");
-
+			
 			// Read response (a String) from the server
 			String data = in.readUTF();
 			resultado=data;

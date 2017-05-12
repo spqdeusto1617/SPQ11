@@ -17,7 +17,7 @@ public class CocheServer {
 		 */
 		
 			public static void main(String[] args) {
-				if (args.length != 5) {
+				if (args.length != 7) {
 					System.exit(0);
 				}
 
@@ -30,7 +30,8 @@ public class CocheServer {
 				String name3 = "//" + args[0] + ":" + args[1] + "/" + args[4];
 				//**************FAÇADE **************
 				try {
-					CocheService servicios = new CocheService( );
+					int puertoGPS = Integer.parseInt(args[6]);
+					CocheService servicios = new CocheService(args[5],puertoGPS);
 					System.out.println(name1);
 					IFacadeTelemetrias ConexionTelemetrias = new FacadeTelemetrias(servicios);
 					Naming.rebind(name1, ConexionTelemetrias);
@@ -43,7 +44,7 @@ public class CocheServer {
 					
 					System.out.println(name3);
 					IFacadeOrdenadorAbordo ConexionOrdenadorAbordo = new FacadeOrdenadorAbordo(servicios);
-					Naming.rebind(name2, ConexionOrdenadorAbordo);
+					Naming.rebind(name3, ConexionOrdenadorAbordo);
 					System.out.println("SERVIDOR ORDENADOR DE ABORDO: "+ name3 + "' active and waiting...");
 					
 					//Hace que se queden esperando una linea
