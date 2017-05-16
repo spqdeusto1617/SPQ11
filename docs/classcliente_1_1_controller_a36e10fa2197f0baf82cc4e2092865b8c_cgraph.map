@@ -1,0 +1,17 @@
+<map id="cliente.Controller.main" name="cliente.Controller.main">
+<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9" title="cliente.Controller.Controller" alt="" coords="204,143,383,170"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_service_locator.html#aa9ef640fc00f70692a798cfdac3621fc" title="cliente.ServiceLocator.set\lService" alt="" coords="437,5,608,47"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_controller.html#adaf2ded3097bdb80a86ead910b763c88" title="cliente.Controller.comprobar\lBateria" alt="" coords="431,136,615,177"/>
+<area shape="rect" id="node7" href="$classcliente_1_1_controller.html#aa58ced5a7a56d92fa235a358293dbd2c" title="cliente.Controller.comprobar\lVelocidad" alt="" coords="431,71,615,112"/>
+<area shape="rect" id="node9" href="$classcliente_1_1_controller.html#a914726330792acea350110e3471d6539" title="cliente.Controller.obtener\lNuevoKilometraje" alt="" coords="439,201,606,243"/>
+<area shape="rect" id="node11" href="$classcliente_1_1_controller.html#ab7d5f66ee8a24453a61bbbca2034fcc3" title="cliente.Controller.obtener\lPosicionActualGPS" alt="" coords="439,364,606,405"/>
+<area shape="rect" id="node5" href="$classcliente_1_1_service_locator.html#ae8911fa82246eb7d3541027de46fa847" title="cliente.ServiceLocator.get\lTelemetrias" alt="" coords="723,136,894,177"/>
+<area shape="rect" id="node6" href="$interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a3c8ee54ab6e8d3aa9b811a91e2830f75" title="servidor.remote.IFacadeTelemetrias.comprobar\lBateria" alt="" coords="663,71,955,112"/>
+<area shape="rect" id="node8" href="$interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a4a39e92e4316558b8ee36174898577e4" title="servidor.remote.IFacadeTelemetrias.comprobar\lVelocidad" alt="" coords="663,5,955,47"/>
+<area shape="rect" id="node10" href="$interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a523ad8f24dceb3401e0997c261d492cb" title="servidor.remote.IFacadeTelemetrias.get\lNuevoKilometraje" alt="" coords="684,201,933,243"/>
+<area shape="rect" id="node12" href="$classservidor_1_1data_1_1_posicion.html#a1365b02473b3b397dddcaf77862a98c7" title="servidor.data.Posicion.set\lUbicacion" alt="" coords="723,397,894,439"/>
+<area shape="rect" id="node13" href="$classcliente_1_1_service_locator.html#abbd9250cef8d3806b4c60e02c82ace0d" title="cliente.ServiceLocator.getGPS" alt="" coords="709,463,908,490"/>
+<area shape="rect" id="node14" href="$interfaceservidor_1_1remote_1_1_i_facade_g_p_s.html#ae39c34a9a2b85b629b521e67a88d1436" title="servidor.remote.IFacadeGPS.obtener\lPosicionActualGPS" alt="" coords="691,515,926,556"/>
+<area shape="rect" id="node15" href="$classservidor_1_1data_1_1_posicion.html#aaf05e512b7435488f2761a0d8316fbb1" title="servidor.data.Posicion.get\lUbicacion" alt="" coords="723,267,894,308"/>
+<area shape="rect" id="node16" href="$classservidor_1_1data_1_1_posicion.html#a163b800f382532ae0b092f21f7c5bb2c" title="servidor.data.Posicion.get\lLugaresCercanosDeInteres" alt="" coords="719,332,898,373"/>
+</map>

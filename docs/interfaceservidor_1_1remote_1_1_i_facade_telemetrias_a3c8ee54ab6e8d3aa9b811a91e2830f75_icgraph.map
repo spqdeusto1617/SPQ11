@@ -1,0 +1,5 @@
+<map id="servidor.remote.IFacadeTelemetrias.comprobarBateria" name="servidor.remote.IFacadeTelemetrias.comprobarBateria">
+<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#adaf2ded3097bdb80a86ead910b763c88" title="cliente.Controller.comprobar\lBateria" alt="" coords="345,5,529,47"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9" title="cliente.Controller.Controller" alt="" coords="577,13,756,39"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_controller.html#a36e10fa2197f0baf82cc4e2092865b8c" title="cliente.Controller.main" alt="" coords="804,13,955,39"/>
+</map>

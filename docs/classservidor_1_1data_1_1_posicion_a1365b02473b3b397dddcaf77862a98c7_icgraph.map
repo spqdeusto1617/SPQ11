@@ -1,0 +1,7 @@
+<map id="servidor.data.Posicion.setUbicacion" name="servidor.data.Posicion.setUbicacion">
+<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#ab7d5f66ee8a24453a61bbbca2034fcc3" title="cliente.Controller.obtener\lPosicionActualGPS" alt="" coords="245,5,412,47"/>
+<area shape="rect" id="node5" href="$classservidor_1_1server_1_1_coche_service.html#a3197a2d4c827f4e5d2ee38f5f58f6dce" title="servidor.server.CocheService.get\lPosicionActualGPS" alt="" coords="224,71,433,112"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9" title="cliente.Controller.Controller" alt="" coords="508,13,687,39"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_controller.html#a36e10fa2197f0baf82cc4e2092865b8c" title="cliente.Controller.main" alt="" coords="761,13,912,39"/>
+<area shape="rect" id="node6" href="$classservidor_1_1remote_1_1_facade_g_p_s.html#af6a818904807a3112ef8e62edfdf5425" title="servidor.remote.FacadeGPS.obtener\lPosicionActualGPS" alt="" coords="481,71,713,112"/>
+</map>

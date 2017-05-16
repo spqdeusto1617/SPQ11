@@ -7,21 +7,37 @@ import servidor.data.Telemetrias;
 import servidor.gateways.GatewayGPS;
 
 public class CocheService {
-	Telemetrias telemetrias;
-	Posicion posicionActual= new Posicion();
+	private Telemetrias telemetrias;
+	private Posicion posicionActual;
 	private GatewayGPS gatewayGPS;
 	String ipSocket;
-	int puestoSocket;
+	
+	int puertoSocket;
 	public CocheService(String ipSocket,int puestoSocket){
 		this.ipSocket=ipSocket;
-		this.puestoSocket=puestoSocket;
+		this.puertoSocket=puestoSocket;
+		telemetrias= new Telemetrias();
+		 posicionActual= new Posicion();
 	}
-	 /** Método para devolver el estado actual de la bateria
+
+	public String getIpSocket() {
+		return ipSocket;
+	}
+
+	public int getPuestoSocket() {
+		return puertoSocket;
+	}
+
+	 public Telemetrias getTelemetrias() {
+		return telemetrias;
+	}
+
+
+	/** Método para devolver el estado actual de la bateria
 	 
 		 */
 	public int getBateria() throws RemoteException {
 		System.out.println("Comprobando % de bateria: ...");
-		telemetrias = new Telemetrias();
 		return telemetrias.getBateria();
 	}
 	 /** Método para devolver la velocidad a a que circulamos actualmente
@@ -29,7 +45,6 @@ public class CocheService {
 		 */
 	public int getVelocidad() throws RemoteException {
 		System.out.println("Sacando Velocidad ...");
-		telemetrias = new Telemetrias();
 		return telemetrias.getVelocidad();
 	}
 	 /** Método para actualizar y devolver los kilometros recoridos
@@ -37,8 +52,7 @@ public class CocheService {
 	 */
 	public int getNuevoKilometraje(int kilometrosNuevos)throws RemoteException {
 		System.out.println("Obteniendo kilometraje ...");
-		telemetrias = new Telemetrias();
-		telemetrias.setKilometraje(kilometrosNuevos);
+		telemetrias.setKilometraje(telemetrias.getKilometraje()+kilometrosNuevos);
 		return telemetrias.getKilometraje();
 	}
 	 /** Método para actualizar y devolver la posicion actual
@@ -47,7 +61,7 @@ public class CocheService {
 	public Posicion getPosicionActualGPS(String contraseña)throws RemoteException {
 		System.out.println("Obteniendo Posicion actual ...");
 		System.out.println("Conectando con servicio externo");
-		gatewayGPS =new GatewayGPS(ipSocket,puestoSocket);
+		gatewayGPS =new GatewayGPS(ipSocket,puertoSocket);
 		String obtenerPosicion = gatewayGPS.sendMessage(contraseña);
 		if(obtenerPosicion.equals("Bilbo")){
 			System.out.println("Analizando...");

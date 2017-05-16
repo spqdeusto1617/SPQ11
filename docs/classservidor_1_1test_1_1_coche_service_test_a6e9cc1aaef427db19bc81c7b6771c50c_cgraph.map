@@ -1,0 +1,5 @@
+<map id="servidor.test.CocheServiceTest.testgetBateria" name="servidor.test.CocheServiceTest.testgetBateria">
+<area shape="rect" id="node2" href="$classservidor_1_1server_1_1_coche_service.html#a8691073265b7bafa93ee0d24aa63d3d2" title="servidor.server.CocheService.get\lTelemetrias" alt="" coords="228,5,437,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1data_1_1_telemetrias.html#a163e68afa4603bf9b7e4c1379338b19f" title="servidor.data.Telemetrias.set\lBateria" alt="" coords="239,71,427,112"/>
+<area shape="rect" id="node4" href="$classservidor_1_1data_1_1_telemetrias.html#af3fdb876ad82fa5e1f79d2fe2979f81f" title="servidor.data.Telemetrias.get\lBateria" alt="" coords="239,136,427,177"/>
+</map>

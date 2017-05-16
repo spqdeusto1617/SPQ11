@@ -1,0 +1,7 @@
+<map id="cliente.ServiceLocator.getTelemetrias" name="cliente.ServiceLocator.getTelemetrias">
+<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#adaf2ded3097bdb80a86ead910b763c88" title="cliente.Controller.comprobar\lBateria" alt="" coords="224,5,408,47"/>
+<area shape="rect" id="node5" href="$classcliente_1_1_controller.html#aa58ced5a7a56d92fa235a358293dbd2c" title="cliente.Controller.comprobar\lVelocidad" alt="" coords="224,71,408,112"/>
+<area shape="rect" id="node6" href="$classcliente_1_1_controller.html#a914726330792acea350110e3471d6539" title="cliente.Controller.obtener\lNuevoKilometraje" alt="" coords="233,136,399,177"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9" title="cliente.Controller.Controller" alt="" coords="456,78,635,105"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_controller.html#a36e10fa2197f0baf82cc4e2092865b8c" title="cliente.Controller.main" alt="" coords="683,78,833,105"/>
+</map>

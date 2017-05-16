@@ -1,0 +1,7 @@
+<map id="cliente.Controller.obtenerPosicionActualGPS" name="cliente.Controller.obtenerPosicionActualGPS">
+<area shape="rect" id="node2" href="$classservidor_1_1data_1_1_posicion.html#a1365b02473b3b397dddcaf77862a98c7" title="servidor.data.Posicion.set\lUbicacion" alt="" coords="252,5,423,47"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_service_locator.html#abbd9250cef8d3806b4c60e02c82ace0d" title="cliente.ServiceLocator.getGPS" alt="" coords="238,71,437,98"/>
+<area shape="rect" id="node4" href="$interfaceservidor_1_1remote_1_1_i_facade_g_p_s.html#ae39c34a9a2b85b629b521e67a88d1436" title="servidor.remote.IFacadeGPS.obtener\lPosicionActualGPS" alt="" coords="220,123,455,164"/>
+<area shape="rect" id="node5" href="$classservidor_1_1data_1_1_posicion.html#aaf05e512b7435488f2761a0d8316fbb1" title="servidor.data.Posicion.get\lUbicacion" alt="" coords="252,188,423,229"/>
+<area shape="rect" id="node6" href="$classservidor_1_1data_1_1_posicion.html#a163b800f382532ae0b092f21f7c5bb2c" title="servidor.data.Posicion.get\lLugaresCercanosDeInteres" alt="" coords="248,253,427,295"/>
+</map>

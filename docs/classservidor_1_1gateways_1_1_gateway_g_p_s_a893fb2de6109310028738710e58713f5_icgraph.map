@@ -1,0 +1,4 @@
+<map id="servidor.gateways.GatewayGPS.sendMessage" name="servidor.gateways.GatewayGPS.sendMessage">
+<area shape="rect" id="node2" href="$classservidor_1_1server_1_1_coche_service.html#a3197a2d4c827f4e5d2ee38f5f58f6dce" title="servidor.server.CocheService.get\lPosicionActualGPS" alt="" coords="233,5,443,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1remote_1_1_facade_g_p_s.html#af6a818904807a3112ef8e62edfdf5425" title="servidor.remote.FacadeGPS.obtener\lPosicionActualGPS" alt="" coords="491,5,723,47"/>
+</map>
