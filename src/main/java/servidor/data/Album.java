@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Album {
 	private String nomAlbum;
-	private  ArrayList <String> canciones;
+	private  ArrayList <String> canciones= new ArrayList<>();
 	public String getNomAlbum() {
 		return nomAlbum;
 	}

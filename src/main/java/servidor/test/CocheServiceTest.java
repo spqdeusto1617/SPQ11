@@ -48,7 +48,7 @@ CocheService cocheService;
 	public void testgetBateria() throws Exception {
 		logger.info("Starting testgetBateria");
 		 cocheService.getTelemetrias().setBateria(1234);
-		assertEquals(1234,  cocheService.getTelemetrias().getBateria()); 
+		assertEquals(1234,  cocheService.getBateria()); 
 		Thread.sleep(121);
 		logger.debug("Finishing testgetBateria");
 	}

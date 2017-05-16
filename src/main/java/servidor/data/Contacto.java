@@ -1,5 +1,9 @@
 package servidor.data;
 
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
 public class Contacto {
 	private String nomContacto;
 	private int numContacto;
@@ -20,4 +24,5 @@ public class Contacto {
 		this.nomContacto=nomContacto;
 		this.numContacto=numContacto;
 	}
+	
 }

@@ -27,14 +27,29 @@ public class PosicionTest {
 	@Before
 	public void setUp() throws Exception {
 		logger.info("Entering setUp");
-		p = new Posicion();
+		p = new Posicion("Bilbo","Museo","Cine");
 		
 		logger.info("Leaving setUp");
 	}
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
+	@Test public void testgetUbicacion()throws Exception {
+		logger.info("Starting testgetUbicacion");
+		p.setUbicacion("Madrid");
+		assertEquals("Madrid",p.getUbicacion()); 
+		logger.debug("Finishing testgetUbicacion");
+	}
+	@Test public void testsetUbicacion()throws Exception {
+		logger.info("Starting testsetUbicacion");
+		p.setUbicacion("Londres");
+		assertTrue(p.getUbicacion().equals("Londres")); 
+		logger.debug("Finishing testsetUbicacion");
+	}
+	@Test public void testgetLugaresCercanosDeInteres()throws Exception {
+		logger.info("Starting testgetLugaresCercanosDeInteres");
+			assertEquals(p.getLugaresCercanosDeInteres().get(1),"Cine"); 
+			assertEquals(p.getLugaresCercanosDeInteres().get(0),"Museo"); 
+	
+		logger.debug("Finishing testgetLugaresCercanosDeInteres");
 	}
 
 }
