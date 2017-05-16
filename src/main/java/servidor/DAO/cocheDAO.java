@@ -29,7 +29,7 @@ public class cocheDAO implements IcocheDAO {
 		/* By default only 1 level is retrieved from the db
 		 * so if we wish to fetch more than one level, we must indicate it
 		 */
-		pm.getFetchPlan().setMaxFetchDepth(4);
+		pm.getFetchPlan().setMaxFetchDepth(1);
 		
 		Transaction tx = pm.currentTransaction();
 		List<Destino> listaDestinos = new ArrayList<>();
@@ -65,7 +65,7 @@ public class cocheDAO implements IcocheDAO {
 		/* By default only 1 level is retrieved from the db
 		 * so if we wish to fetch more than one level, we must indicate it
 		 */
-		pm.getFetchPlan().setMaxFetchDepth(4);
+		pm.getFetchPlan().setMaxFetchDepth(1);
 		
 		Transaction tx = pm.currentTransaction();
 		List<Album> listaAlbums = new ArrayList<>();
@@ -100,7 +100,7 @@ public class cocheDAO implements IcocheDAO {
 		/* By default only 1 level is retrieved from the db
 		 * so if we wish to fetch more than one level, we must indicate it
 		 */
-		pm.getFetchPlan().setMaxFetchDepth(4);
+		pm.getFetchPlan().setMaxFetchDepth(1);
 		
 		Transaction tx = pm.currentTransaction();
 		List<Contacto> listaContactos = new ArrayList<>();

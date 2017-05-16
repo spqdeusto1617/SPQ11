@@ -3,6 +3,9 @@ package cliente;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 
+import servidor.data.Album;
+import servidor.data.Contacto;
+import servidor.data.Destino;
 import servidor.data.Posicion;
 
 
@@ -12,6 +15,9 @@ public class Controller {
 	private ServiceLocator rsl;
 	private String name;
 	private Posicion posicionActual;
+	private Album album;
+	private Contacto contacto;
+	private Destino destino;
 	/** 
 	 * Relaciona la aplicación con el ServiceLocator y abre la ventana
 	 * @param args String[]  
@@ -110,7 +116,6 @@ public class Controller {
 	public void obtenerPosicionActualGPS(String contraseña)
 	{
 		try {
-			// Add your code HERE - Related to getting the service 
 			posicionActual=new Posicion();
 			 posicionActual.setUbicacion(rsl.getGPS().obtenerPosicionActualGPS(contraseña));
 			 if(posicionActual.getUbicacion().equals("Bilbo")){
@@ -127,9 +132,29 @@ public class Controller {
 		} catch (Exception e) {
 			System.out.println("$ Error Comprobando posicion Controller ");
 			System.out.println(posicionActual.getUbicacion());
-		}	
+		}
+		
+	/*public void hacerLlamada(){
+
+		try{
+			System.out.println("Marcando ..." + c.getNumContacto());
+			System.out.println("Llamando a ..." + c.getNomContacto());
+			System.out.println("Llamada establecida");
+			System.out.println("#########################################");
+			System.out.println("FIN DE LA LLAMADA");
+			}catch (Exception e){
+				System.out.println("$ Error haciendo la llamada desde el Controller ");
+			}
+		}
+		
+		public void reproducirCancion(Album a, int numCancion) throws RemoteException {
+			System.out.println("Album elegido: " + a.getNomAlbum());
+			System.out.println("Canciones: " + a.getCanciones());
+			System.out.println("Reproduciendo canción nº" + numCancion + " --> " + a.getCanciones().get(numCancion));
+		}*/
 		
 	}
+	
 	/** Método principal
 	 * 
 	 * @param args String[]
