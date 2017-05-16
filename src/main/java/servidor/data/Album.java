@@ -14,7 +14,7 @@ import javax.jdo.annotations.PrimaryKey;
 public class Album {
 	@PrimaryKey
 	private String nomAlbum;
-	private  ArrayList <String> canciones;
+	private  ArrayList <String> canciones= new ArrayList<>();
 	public String getNomAlbum() {
 		return nomAlbum;
 	}

@@ -21,10 +21,21 @@ public class CocheService {
 	private GatewayGPS gatewayGPS;
 	private IcocheDAO IcocheDAO = new cocheDAO();
 	String ipSocket;
-	int puestoSocket;
+	int puertoSocket;
 	public CocheService(String ipSocket,int puestoSocket){
 		this.ipSocket=ipSocket;
-		this.puestoSocket=puestoSocket;
+		this.puertoSocket=puestoSocket;
+	}
+	public String getIpSocket() {
+		return ipSocket;
+	}
+
+	public int getPuertoSocket() {
+		return puertoSocket;
+	}
+
+	 public Telemetrias getTelemetrias() {
+		return telemetrias;
 	}
 	 /** Método para devolver el estado actual de la bateria
 	 
@@ -57,7 +68,7 @@ public class CocheService {
 	public Posicion getPosicionActualGPS(String contraseña)throws RemoteException {
 		System.out.println("Obteniendo Posicion actual ...");
 		System.out.println("Conectando con servicio externo");
-		gatewayGPS =new GatewayGPS(ipSocket,puestoSocket);
+		gatewayGPS =new GatewayGPS(ipSocket,puertoSocket);
 		String obtenerPosicion = gatewayGPS.sendMessage(contraseña);
 		if(obtenerPosicion.equals("Bilbo")){
 			System.out.println("Analizando...");

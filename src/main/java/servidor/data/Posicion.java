@@ -23,8 +23,6 @@ public class Posicion {
 	public ArrayList<String> getLugaresCercanosDeInteres() {
 		return lugaresCercanosDeInteres;
 	}
-	public void setLugaresCercanosDeInteres(ArrayList<String> lugaresCercanosDeInteres) {
-		this.lugaresCercanosDeInteres = lugaresCercanosDeInteres;
-	}
+	
 	
 }

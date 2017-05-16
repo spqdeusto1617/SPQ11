@@ -1,0 +1,7 @@
+<map id="servidor.data.Telemetrias.getVelocidad" name="servidor.data.Telemetrias.getVelocidad">
+<area shape="rect" id="node2" href="$classservidor_1_1server_1_1_coche_service.html#a2350fe0a507442ce0e1e2916a73f611f" title="servidor.server.CocheService.get\lVelocidad" alt="" coords="241,5,451,47"/>
+<area shape="rect" id="node4" href="$classservidor_1_1test_1_1_coche_service_test.html#add3a8fbb60dfc36677fb97cc52beb84d" title="servidor.test.CocheService\lTest.testgetTelemetrias" alt="" coords="259,71,433,112"/>
+<area shape="rect" id="node5" href="$classservidor_1_1test_1_1_telemetrias_test.html#a9d721778ef16415eb6c7d5db14e95162" title="servidor.test.Telemetrias\lTest.testgetVelocidad" alt="" coords="265,136,427,177"/>
+<area shape="rect" id="node6" href="$classservidor_1_1test_1_1_telemetrias_test.html#ae5fadf7015b7675768d071c386827948" title="servidor.test.Telemetrias\lTest.testsetVelocidad" alt="" coords="265,201,427,243"/>
+<area shape="rect" id="node3" href="$classservidor_1_1remote_1_1_facade_telemetrias.html#ae79ef0b9657e96df353aeeadf6e55827" title="servidor.remote.FacadeTelemetrias.comprobar\lVelocidad" alt="" coords="499,5,788,47"/>
+</map>

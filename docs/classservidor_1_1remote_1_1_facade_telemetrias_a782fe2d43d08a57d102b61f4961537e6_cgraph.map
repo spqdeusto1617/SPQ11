@@ -1,0 +1,4 @@
+<map id="servidor.remote.FacadeTelemetrias.comprobarBateria" name="servidor.remote.FacadeTelemetrias.comprobarBateria">
+<area shape="rect" id="node2" href="$classservidor_1_1server_1_1_coche_service.html#aef4081a9ffadfa5a341cea28293f00a3" title="servidor.server.CocheService.get\lBateria" alt="" coords="343,5,552,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1data_1_1_telemetrias.html#af3fdb876ad82fa5e1f79d2fe2979f81f" title="servidor.data.Telemetrias.get\lBateria" alt="" coords="600,5,788,47"/>
+</map>
