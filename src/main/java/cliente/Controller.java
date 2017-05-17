@@ -3,9 +3,6 @@ package cliente;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 
-import servidor.data.Album;
-import servidor.data.Contacto;
-import servidor.data.Destino;
 import servidor.data.Posicion;
 
 
@@ -15,9 +12,7 @@ public class Controller {
 	private ServiceLocator rsl;
 	private String name;
 	private Posicion posicionActual;
-	private Album album;
-	private Contacto contacto;
-	private Destino destino;
+	private boolean metodoExitoso;
 	/** 
 	 * Relaciona la aplicación con el ServiceLocator y abre la ventana
 	 * @param args String[]  
@@ -29,10 +24,10 @@ public class Controller {
 		this.rsl = new ServiceLocator();
 		rsl.setService(args[0], args[1], args[2], args[3], args[4]);
 		new VentanaCliente(this);
-		comprobarBateria();
-		comprobarVelocidad();
-		obtenerNuevoKilometraje(1066);
-		obtenerPosicionActualGPS("1234");
+		metodoExitoso=comprobarBateria();
+		metodoExitoso=comprobarVelocidad();
+		metodoExitoso=obtenerNuevoKilometraje(1066);
+		metodoExitoso=obtenerPosicionActualGPS("1234");
 		
 	}
 	
@@ -49,7 +44,7 @@ public class Controller {
 	 * Hace una llamada al service locator para que
 	 *  conecte con el servidor y mire la bateria  
 	 */
-	public void comprobarBateria()
+	public boolean comprobarBateria()
 	{
 		try {
 			// Add your code HERE - Related to getting the service 
@@ -58,10 +53,11 @@ public class Controller {
 			System.out.println("Queda poca bateria");
 		}
 		System.out.println("Bateria: "+bateria);
+		return true;
 		} catch (Exception e) {
 			
 			System.out.println("$ Error Comprobando Bateria() Controller ");
-			
+			return false;
 		}	
 		
 	}
@@ -69,7 +65,7 @@ public class Controller {
 	 * Hace una llamada al service locator para que
 	 *  conecte con el servidor y mire la velocidad  
 	 */
-	public void comprobarVelocidad()
+	public boolean comprobarVelocidad()
 	{
 		try {
 			// Add your code HERE - Related to getting the service 
@@ -78,10 +74,11 @@ public class Controller {
 			System.out.println("Exceso de velocidad");
 		}
 		System.out.println("Velocidad: "+velocidad);
+		return true;
 		} catch (Exception e) {
 			
 			System.out.println("$ Error Comprobando velocidad Controller ");
-			
+			return false;
 		}	
 		
 	}
@@ -92,16 +89,18 @@ public class Controller {
 	 *  y se los muestra
 	 * @param nuevosKilometrosRecorridos int   
 	 */
-	public void obtenerNuevoKilometraje(int nuevosKilometrosRecorridos)
+	public boolean obtenerNuevoKilometraje(int nuevosKilometrosRecorridos)
 	{
 		try {
 			// Add your code HERE - Related to getting the service 
 		int kilometros= rsl.getTelemetrias().getNuevoKilometraje(nuevosKilometrosRecorridos);
 		
 		System.out.println("Kilometraje: "+kilometros);
+		return true;
 		} catch (Exception e) {
 			
 			System.out.println("$ Error Kilometraje Controller ");
+			return false;
 			
 		}
 		
@@ -113,9 +112,10 @@ public class Controller {
 	 *  conecte con el servidor y mire la posicion actual 
 	 *  @param contraseña String   
 	 */
-	public void obtenerPosicionActualGPS(String contraseña)
+	public boolean obtenerPosicionActualGPS(String contraseña)
 	{
 		try {
+			// Add your code HERE - Related to getting the service 
 			posicionActual=new Posicion();
 			 posicionActual.setUbicacion(rsl.getGPS().obtenerPosicionActualGPS(contraseña));
 			 if(posicionActual.getUbicacion().equals("Bilbo")){
@@ -128,33 +128,15 @@ public class Controller {
 		System.out.println("Posicion actual: "+posicionActual.getUbicacion());
 		System.out.println("Sitios de interes: "+ posicionActual.getLugaresCercanosDeInteres().get(0));
 		System.out.println("Sitios de interes: "+ posicionActual.getLugaresCercanosDeInteres().get(1));
+		return true;
 
 		} catch (Exception e) {
 			System.out.println("$ Error Comprobando posicion Controller ");
 			System.out.println(posicionActual.getUbicacion());
-		}
-		
-	/*public void hacerLlamada(){
-
-		try{
-			System.out.println("Marcando ..." + c.getNumContacto());
-			System.out.println("Llamando a ..." + c.getNomContacto());
-			System.out.println("Llamada establecida");
-			System.out.println("#########################################");
-			System.out.println("FIN DE LA LLAMADA");
-			}catch (Exception e){
-				System.out.println("$ Error haciendo la llamada desde el Controller ");
-			}
-		}
-		
-		public void reproducirCancion(Album a, int numCancion) throws RemoteException {
-			System.out.println("Album elegido: " + a.getNomAlbum());
-			System.out.println("Canciones: " + a.getCanciones());
-			System.out.println("Reproduciendo canción nº" + numCancion + " --> " + a.getCanciones().get(numCancion));
-		}*/
+			return false;
+		}	
 		
 	}
-	
 	/** Método principal
 	 * 
 	 * @param args String[]

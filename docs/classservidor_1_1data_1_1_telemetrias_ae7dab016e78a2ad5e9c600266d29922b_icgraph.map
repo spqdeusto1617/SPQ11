@@ -1,0 +1,7 @@
+<map id="servidor.data.Telemetrias.getKilometraje" name="servidor.data.Telemetrias.getKilometraje">
+<area shape="rect" id="node2" href="$classservidor_1_1server_1_1_coche_service.html#a5aef39ea4d6f524f795746146a5a5409" title="servidor.server.CocheService.get\lNuevoKilometraje" alt="" coords="241,5,451,47"/>
+<area shape="rect" id="node4" href="$classservidor_1_1test_1_1_coche_service_test.html#add3a8fbb60dfc36677fb97cc52beb84d" title="servidor.test.CocheService\lTest.testgetTelemetrias" alt="" coords="259,71,433,112"/>
+<area shape="rect" id="node5" href="$classservidor_1_1test_1_1_telemetrias_test.html#abc3fce004fd59d7cf92528fbe2ba67ab" title="servidor.test.Telemetrias\lTest.testgetKilometraje" alt="" coords="265,136,427,177"/>
+<area shape="rect" id="node6" href="$classservidor_1_1test_1_1_telemetrias_test.html#abb9a35ce1656f801b72d3573f038147b" title="servidor.test.Telemetrias\lTest.testsetKilometraje" alt="" coords="265,201,427,243"/>
+<area shape="rect" id="node3" href="$classservidor_1_1remote_1_1_facade_telemetrias.html#ad1279e694897015abbf64d740aed15c3" title="servidor.remote.FacadeTelemetrias.get\lNuevoKilometraje" alt="" coords="499,5,745,47"/>
+</map>

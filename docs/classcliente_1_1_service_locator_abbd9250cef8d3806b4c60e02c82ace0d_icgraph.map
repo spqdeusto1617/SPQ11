@@ -1,0 +1,6 @@
+<map id="cliente.ServiceLocator.getGPS" name="cliente.ServiceLocator.getGPS">
+<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#ae6d272023b3f087754065d801aa39553" title="cliente.Controller.obtener\lPosicionActualGPS" alt="" coords="259,5,426,47"/>
+<area shape="rect" id="node5" href="$classservidor_1_1test_1_1_service_locator_test.html#a8ea906d9e100587cc42f01e23f22d765" title="servidor.test.ServiceLocator\lTest.testgetGPS" alt="" coords="252,71,433,112"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9" title="cliente.Controller.Controller" alt="" coords="481,13,660,39"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_controller.html#a36e10fa2197f0baf82cc4e2092865b8c" title="cliente.Controller.main" alt="" coords="708,13,859,39"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="servidor.server.CocheService.getNuevoKilometraje" name="servidor.server.CocheService.getNuevoKilometraje">
+<area shape="rect" id="node2" href="$classservidor_1_1data_1_1_telemetrias.html#af9bb583e4703b2afa85651caab8d572e" title="servidor.data.Telemetrias.set\lKilometraje" alt="" coords="263,5,451,47"/>
+<area shape="rect" id="node3" href="$classservidor_1_1data_1_1_telemetrias.html#ae7dab016e78a2ad5e9c600266d29922b" title="servidor.data.Telemetrias.get\lKilometraje" alt="" coords="263,71,451,112"/>
+</map>

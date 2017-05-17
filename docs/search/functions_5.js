@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['gatewaygps',['GatewayGPS',['../classservidor_1_1gateways_1_1_gateway_g_p_s.html#a91c62a4ab56a714d1c524b57e3cd8dda',1,'servidor::gateways::GatewayGPS']]],
+  ['getalbums',['getAlbums',['../classservidor_1_1_d_a_o_1_1coche_d_a_o.html#a8fa680ec78310d816b2e1b987772ac17',1,'servidor.DAO.cocheDAO.getAlbums()'],['../interfaceservidor_1_1_d_a_o_1_1_icoche_d_a_o.html#a0807f9e3bcd2fadf16d5afdcba88b866',1,'servidor.DAO.IcocheDAO.getAlbums()']]],
+  ['getbateria',['getBateria',['../classservidor_1_1data_1_1_telemetrias.html#af3fdb876ad82fa5e1f79d2fe2979f81f',1,'servidor.data.Telemetrias.getBateria()'],['../classservidor_1_1server_1_1_coche_service.html#aef4081a9ffadfa5a341cea28293f00a3',1,'servidor.server.CocheService.getBateria()']]],
+  ['getcanciones',['getCanciones',['../classservidor_1_1data_1_1_album.html#aff1bc0f0bd2c8c3ee070738aa6fa79de',1,'servidor::data::Album']]],
+  ['getcontactos',['getContactos',['../classservidor_1_1_d_a_o_1_1coche_d_a_o.html#a5bd0a9f28658c0232178a6be1e23fdc2',1,'servidor.DAO.cocheDAO.getContactos()'],['../interfaceservidor_1_1_d_a_o_1_1_icoche_d_a_o.html#a6c85b64d4eb007d5f118505ad47940e2',1,'servidor.DAO.IcocheDAO.getContactos()']]],
+  ['getcoordenadas',['getCoordenadas',['../classservidor_1_1data_1_1_destino.html#a1dc1dc54a9cf5f1a82990bcccacd5210',1,'servidor::data::Destino']]],
+  ['getdestinos',['getDestinos',['../classservidor_1_1_d_a_o_1_1coche_d_a_o.html#a52f6b5eb5fb266b390b4f47aba8b6020',1,'servidor.DAO.cocheDAO.getDestinos()'],['../interfaceservidor_1_1_d_a_o_1_1_icoche_d_a_o.html#ada8fc3d05cb2405582069d6fb67c0e21',1,'servidor.DAO.IcocheDAO.getDestinos()']]],
+  ['getgps',['getGPS',['../classcliente_1_1_service_locator.html#abbd9250cef8d3806b4c60e02c82ace0d',1,'cliente::ServiceLocator']]],
+  ['getipsocket',['getIpSocket',['../classservidor_1_1server_1_1_coche_service.html#acb941566f41a65e4fc2d014b286393e0',1,'servidor::server::CocheService']]],
+  ['getkilometraje',['getKilometraje',['../classservidor_1_1data_1_1_telemetrias.html#ae7dab016e78a2ad5e9c600266d29922b',1,'servidor::data::Telemetrias']]],
+  ['getlugarescercanosdeinteres',['getLugaresCercanosDeInteres',['../classservidor_1_1data_1_1_posicion.html#a163b800f382532ae0b092f21f7c5bb2c',1,'servidor::data::Posicion']]],
+  ['getnom_5fdest',['getNom_dest',['../classservidor_1_1data_1_1_destino.html#adc3d47f8057420cda493f136f460f020',1,'servidor::data::Destino']]],
+  ['getnomalbum',['getNomAlbum',['../classservidor_1_1data_1_1_album.html#ae9fd6a89a6cae71525ec68c2fbcef7eb',1,'servidor::data::Album']]],
+  ['getnomcontacto',['getNomContacto',['../classservidor_1_1data_1_1_contacto.html#a36849b71402ed6e2a37f1db4bb5aa5ef',1,'servidor::data::Contacto']]],
+  ['getnuevokilometraje',['getNuevoKilometraje',['../classservidor_1_1remote_1_1_facade_telemetrias.html#ad1279e694897015abbf64d740aed15c3',1,'servidor.remote.FacadeTelemetrias.getNuevoKilometraje()'],['../interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a523ad8f24dceb3401e0997c261d492cb',1,'servidor.remote.IFacadeTelemetrias.getNuevoKilometraje()'],['../classservidor_1_1server_1_1_coche_service.html#a5aef39ea4d6f524f795746146a5a5409',1,'servidor.server.CocheService.getNuevoKilometraje()']]],
+  ['getnumcontacto',['getNumContacto',['../classservidor_1_1data_1_1_contacto.html#a5b60fdca92656f161ade854e982e3e1b',1,'servidor::data::Contacto']]],
+  ['getordenadorabordo',['getOrdenadorAbordo',['../classcliente_1_1_service_locator.html#a8e903897e603dd6fb5f7859fa2eae202',1,'cliente::ServiceLocator']]],
+  ['getposicionactualgps',['getPosicionActualGPS',['../classservidor_1_1server_1_1_coche_service.html#a3197a2d4c827f4e5d2ee38f5f58f6dce',1,'servidor::server::CocheService']]],
+  ['getpuertosocket',['getPuertoSocket',['../classservidor_1_1server_1_1_coche_service.html#a3449098b6ee56c927d0a644495ed9f9d',1,'servidor::server::CocheService']]],
+  ['gettelemetrias',['getTelemetrias',['../classcliente_1_1_service_locator.html#ae8911fa82246eb7d3541027de46fa847',1,'cliente.ServiceLocator.getTelemetrias()'],['../classservidor_1_1server_1_1_coche_service.html#a8691073265b7bafa93ee0d24aa63d3d2',1,'servidor.server.CocheService.getTelemetrias()']]],
+  ['getubicacion',['getUbicacion',['../classservidor_1_1data_1_1_posicion.html#aaf05e512b7435488f2761a0d8316fbb1',1,'servidor::data::Posicion']]],
+  ['getvelocidad',['getVelocidad',['../classservidor_1_1data_1_1_telemetrias.html#ada71676e4e31ffcaa37f3b1b12e99e1f',1,'servidor.data.Telemetrias.getVelocidad()'],['../classservidor_1_1server_1_1_coche_service.html#a2350fe0a507442ce0e1e2916a73f611f',1,'servidor.server.CocheService.getVelocidad()']]],
+  ['gpsservice',['GPSservice',['../classservidor_externo_1_1_g_p_s_1_1_g_p_sservice.html#ae5a3505e1f92d4059f88e7ca75b65a7c',1,'servidorExterno::GPS::GPSservice']]]
+];
