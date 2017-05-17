@@ -5,5 +5,7 @@ var searchData=
   ['cocheservice_2ejava',['CocheService.java',['../_coche_service_8java.html',1,'']]],
   ['cocheservicetest_2ejava',['CocheServiceTest.java',['../_coche_service_test_8java.html',1,'']]],
   ['contacto_2ejava',['Contacto.java',['../_contacto_8java.html',1,'']]],
-  ['controller_2ejava',['Controller.java',['../_controller_8java.html',1,'']]]
+  ['contactotest_2ejava',['ContactoTest.java',['../_contacto_test_8java.html',1,'']]],
+  ['controller_2ejava',['Controller.java',['../_controller_8java.html',1,'']]],
+  ['controllertest_2ejava',['ControllerTest.java',['../_controller_test_8java.html',1,'']]]
 ];

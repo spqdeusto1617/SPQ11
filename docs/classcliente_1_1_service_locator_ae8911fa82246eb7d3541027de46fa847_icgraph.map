@@ -1,7 +1,11 @@
 <map id="cliente.ServiceLocator.getTelemetrias" name="cliente.ServiceLocator.getTelemetrias">
-<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#adaf2ded3097bdb80a86ead910b763c88" title="cliente.Controller.comprobar\lBateria" alt="" coords="224,5,408,47"/>
-<area shape="rect" id="node5" href="$classcliente_1_1_controller.html#aa58ced5a7a56d92fa235a358293dbd2c" title="cliente.Controller.comprobar\lVelocidad" alt="" coords="224,71,408,112"/>
-<area shape="rect" id="node6" href="$classcliente_1_1_controller.html#a914726330792acea350110e3471d6539" title="cliente.Controller.obtener\lNuevoKilometraje" alt="" coords="233,136,399,177"/>
-<area shape="rect" id="node3" href="$classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9" title="cliente.Controller.Controller" alt="" coords="456,78,635,105"/>
-<area shape="rect" id="node4" href="$classcliente_1_1_controller.html#a36e10fa2197f0baf82cc4e2092865b8c" title="cliente.Controller.main" alt="" coords="683,78,833,105"/>
+<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#a576e5ed2ab0e7f4226e8d775c18cab17" title="cliente.Controller.comprobar\lBateria" alt="" coords="224,97,408,139"/>
+<area shape="rect" id="node6" href="$classcliente_1_1_controller.html#a7ca891e02ccbfd804fe06c59cf82bbd6" title="cliente.Controller.comprobar\lVelocidad" alt="" coords="224,32,408,73"/>
+<area shape="rect" id="node8" href="$classcliente_1_1_controller.html#aa04a3721bc52f346e12c8c1697b23141" title="cliente.Controller.obtener\lNuevoKilometraje" alt="" coords="233,163,399,204"/>
+<area shape="rect" id="node10" href="$classservidor_1_1test_1_1_service_locator_test.html#ad8330a62b95d5ccbeaf520100ed4ed12" title="servidor.test.ServiceLocator\lTest.testgetTelemetrias" alt="" coords="225,228,407,269"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9" title="cliente.Controller.Controller" alt="" coords="464,71,643,98"/>
+<area shape="rect" id="node5" href="$classservidor_1_1test_1_1_controller_test.html#a3f7b38d3a5d6abeb40404873cb193b3c" title="servidor.test.Controller\lTest.comprobarBateria" alt="" coords="477,123,630,164"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_controller.html#a36e10fa2197f0baf82cc4e2092865b8c" title="cliente.Controller.main" alt="" coords="699,71,849,98"/>
+<area shape="rect" id="node7" href="$classservidor_1_1test_1_1_controller_test.html#a51bf7f1444241302f222f27e89b53f10" title="servidor.test.Controller\lTest.comprobarVelocidad" alt="" coords="469,5,638,47"/>
+<area shape="rect" id="node9" href="$classservidor_1_1test_1_1_controller_test.html#a2b0c5ae22f5314517244accc08718c7d" title="servidor.test.Controller\lTest.obtenerNuevoKilometraje" alt="" coords="456,188,651,229"/>
 </map>

@@ -1,5 +1,6 @@
 <map id="servidor.remote.IFacadeTelemetrias.comprobarVelocidad" name="servidor.remote.IFacadeTelemetrias.comprobarVelocidad">
-<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#aa58ced5a7a56d92fa235a358293dbd2c" title="cliente.Controller.comprobar\lVelocidad" alt="" coords="345,5,529,47"/>
-<area shape="rect" id="node3" href="$classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9" title="cliente.Controller.Controller" alt="" coords="577,13,756,39"/>
-<area shape="rect" id="node4" href="$classcliente_1_1_controller.html#a36e10fa2197f0baf82cc4e2092865b8c" title="cliente.Controller.main" alt="" coords="804,13,955,39"/>
+<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#a7ca891e02ccbfd804fe06c59cf82bbd6" title="cliente.Controller.comprobar\lVelocidad" alt="" coords="345,27,529,69"/>
+<area shape="rect" id="node3" href="$classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9" title="cliente.Controller.Controller" alt="" coords="577,5,756,32"/>
+<area shape="rect" id="node5" href="$classservidor_1_1test_1_1_controller_test.html#a51bf7f1444241302f222f27e89b53f10" title="servidor.test.Controller\lTest.comprobarVelocidad" alt="" coords="582,57,751,98"/>
+<area shape="rect" id="node4" href="$classcliente_1_1_controller.html#a36e10fa2197f0baf82cc4e2092865b8c" title="cliente.Controller.main" alt="" coords="804,5,955,32"/>
 </map>
