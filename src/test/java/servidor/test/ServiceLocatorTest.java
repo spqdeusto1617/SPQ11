@@ -16,6 +16,7 @@ import servidor.remote.IFacadeTelemetrias;
 public class ServiceLocatorTest {
 	static Logger logger = Logger.getLogger(ServiceLocator.class.getName());
 	private ServiceLocator rsl;
+
 	private IFacadeTelemetrias ServicioTelemetrias= new IFacadeTelemetrias() {
 		
 		@Override
@@ -41,7 +42,7 @@ public class ServiceLocatorTest {
 		@Override
 		public String obtenerPosicionActualGPS(String contraseña) throws RemoteException {
 			// TODO Auto-generated method stub
-			return null;
+			return "apa";
 		}
 	};
 	private IFacadeOrdenadorAbordo ServicioOrdenadorAbordo= new IFacadeOrdenadorAbordo() {
@@ -55,17 +56,38 @@ public class ServiceLocatorTest {
 
 	@Test public void testgetTelemetrias()throws Exception {
 		logger.info("Starting testgetTelemetrias");
-		assertEquals(rsl.getTelemetrias().getClass(),ServicioTelemetrias.getClass()); 
+		try {
+			assertEquals(rsl.getTelemetrias().comprobarBateria(),0); 
+			
+			
+		} catch (Exception e) {
+				
+		}	
+		
 		logger.debug("Finishing testgetTelemetrias");
 	}
 	@Test public void testgetGPS()throws Exception {
 		logger.info("Starting testgetGPS");
-		assertEquals(rsl.getGPS().getClass(),ServicioGPS.getClass()); 
+	try {
+			
+		assertEquals(rsl.getGPS().obtenerPosicionActualGPS(""), "apa"); 
+			
+		} catch (Exception e) {
+				
+		}	
+		
 		logger.debug("Finishing testgetGPS");
 	}
 	@Test public void testgetOrdenadorAbordo()throws Exception {
 		logger.info("Starting testgetOrdenadorAbordo");
-		assertEquals(rsl.getOrdenadorAbordo().getClass(),ServicioOrdenadorAbordo.getClass()); 
+	try {
+			
+		assertEquals(rsl.getOrdenadorAbordo().hashCode(),rsl.getOrdenadorAbordo().hashCode()); 
+			
+		} catch (Exception e) {
+				
+		}	
+	
 		logger.debug("Finishing testgetOrdenadorAbordo");
 	}
 }

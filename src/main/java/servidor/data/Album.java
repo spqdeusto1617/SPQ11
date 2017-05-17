@@ -9,8 +9,8 @@ import javax.jdo.annotations.InheritanceStrategy;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.PrimaryKey;
 @PersistenceCapable(detachable="true")
-@Inheritance(strategy=InheritanceStrategy.SUPERCLASS_TABLE)
-@Discriminator(strategy=DiscriminatorStrategy.CLASS_NAME)
+//@Inheritance(strategy=InheritanceStrategy.SUPERCLASS_TABLE)
+//@Discriminator(strategy=DiscriminatorStrategy.CLASS_NAME)
 public class Album {
 	@PrimaryKey
 	private String nomAlbum;

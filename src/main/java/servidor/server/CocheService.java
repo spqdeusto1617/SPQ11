@@ -17,18 +17,24 @@ public class CocheService {
 	Contacto contacto;
 	Album album;
 	Telemetrias telemetrias;
-	Posicion posicionActual= new Posicion();
+	Posicion posicionActual;
 	private GatewayGPS gatewayGPS;
-	private IcocheDAO IcocheDAO = new cocheDAO();
+	//private IcocheDAO IcocheDAO = new cocheDAO();
 	String ipSocket;
 	int puertoSocket;
 	public CocheService(String ipSocket,int puestoSocket){
 		this.ipSocket=ipSocket;
 		this.puertoSocket=puestoSocket;
+		telemetrias = new Telemetrias();
+		 posicionActual= new Posicion();
 	}
 	public String getIpSocket() {
 		return ipSocket;
 	}
+	public Posicion getposicionActual() {
+		return posicionActual;
+	}
+
 
 	public int getPuertoSocket() {
 		return puertoSocket;
@@ -42,7 +48,7 @@ public class CocheService {
 		 */
 	public int getBateria() throws RemoteException {
 		System.out.println("Comprobando % de bateria: ...");
-		telemetrias = new Telemetrias();
+		
 		return telemetrias.getBateria();
 	}
 	 /** Método para devolver la velocidad a a que circulamos actualmente
@@ -50,7 +56,7 @@ public class CocheService {
 		 */
 	public int getVelocidad() throws RemoteException {
 		System.out.println("Sacando Velocidad ...");
-		telemetrias = new Telemetrias();
+	
 		return telemetrias.getVelocidad();
 	}
 	 /** Método para actualizar y devolver los kilometros recoridos
@@ -58,7 +64,7 @@ public class CocheService {
 	 */
 	public int getNuevoKilometraje(int kilometrosNuevos)throws RemoteException {
 		System.out.println("Obteniendo kilometraje ...");
-		telemetrias = new Telemetrias();
+	
 		telemetrias.setKilometraje(kilometrosNuevos);
 		return telemetrias.getKilometraje();
 	}
@@ -78,7 +84,7 @@ public class CocheService {
 			 posicionActual.setUbicacion("Bilbo");
 			 posicionActual.getLugaresCercanosDeInteres().add(lugarInt1);
 			 posicionActual.getLugaresCercanosDeInteres().add(lugarInt2);
-			introducirDestinoBD(lugarInt1, coordenada1);
+			 //introducirDestinoBD(lugarInt1, coordenada1);
 			
 			 System.out.println("Posicion encontrada");
 			return  posicionActual;
@@ -91,29 +97,29 @@ public class CocheService {
 	public void introducirDestinoBD(String nomDest, String coordenadasDest){
 		destino = new Destino(nomDest, coordenadasDest);
 		System.out.println("destino creado desde CocheService");
-		IcocheDAO.setAlbums(album);
+		//IcocheDAO.setAlbums(album);
 	}
 
 	public void introducirContactoBD(String nomContacto, int numContacto){
 		contacto = new Contacto(nomContacto, numContacto);
-		IcocheDAO.setContactos(contacto);
+		//IcocheDAO.setContactos(contacto);
 	}
 
 	public void introducirAlbumBD(String nomAlbum, ArrayList<String> canciones){
 		album = new Album(nomAlbum, canciones);
-		IcocheDAO.setAlbums(album);
+		//	IcocheDAO.setAlbums(album);
 	}
 	
 	public void verDestinos(){
-		IcocheDAO.getDestinos();
+		//IcocheDAO.getDestinos();
 	}
 
 	public void verContactos(){
-		IcocheDAO.getContactos();
+		//IcocheDAO.getContactos();
 	}
 
 	public void verAlbums(){
-		IcocheDAO.getAlbums();
+		//IcocheDAO.getAlbums();
 	}
 	
 	public boolean hacerLlamada(Contacto c) throws RemoteException {

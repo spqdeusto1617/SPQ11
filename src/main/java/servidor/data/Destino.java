@@ -9,8 +9,8 @@ import javax.jdo.annotations.PrimaryKey;
 
 
 @PersistenceCapable(detachable="true")
-@Inheritance(strategy=InheritanceStrategy.SUPERCLASS_TABLE)
-@Discriminator(strategy=DiscriminatorStrategy.CLASS_NAME)
+//@Inheritance(strategy=InheritanceStrategy.SUPERCLASS_TABLE)
+//@Discriminator(strategy=DiscriminatorStrategy.CLASS_NAME)
 public class Destino {
 	@PrimaryKey
 	private  String nomDest;

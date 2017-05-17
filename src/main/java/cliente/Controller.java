@@ -7,6 +7,7 @@ import servidor.data.Posicion;
 
 
 
+
 public class Controller {
 	@SuppressWarnings("unused")
 	private ServiceLocator rsl;
@@ -30,6 +31,10 @@ public class Controller {
 		metodoExitoso=obtenerPosicionActualGPS("1234");
 		
 	}
+	 public ServiceLocator getServiceLocator() {
+	    	// Add your code to return the TARGET reference HERE
+	    	return this.rsl;
+	    }
 	
 	
 	/**
@@ -106,7 +111,7 @@ public class Controller {
 		
 		
 	}
-	
+
 	/** 
 	 * Hace una llamada al service locator para que
 	 *  conecte con el servidor y mire la posicion actual 
