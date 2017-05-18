@@ -7,10 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import servidor.data.Destino;
-import servidor.data.Posicion;
 
 public class DestinoTest {
-	static Logger logger = Logger.getLogger(Posicion.class.getName());
+	static Logger logger = Logger.getLogger(Destino.class.getName());
 	Destino p;
 	@Before
 	public void setUp() throws Exception {

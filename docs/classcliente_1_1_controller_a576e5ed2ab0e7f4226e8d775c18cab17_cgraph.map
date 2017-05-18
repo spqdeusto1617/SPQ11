@@ -1,4 +1,0 @@
-<map id="cliente.Controller.comprobarBateria" name="cliente.Controller.comprobarBateria">
-<area shape="rect" id="node2" href="$classcliente_1_1_service_locator.html#ae8911fa82246eb7d3541027de46fa847" title="cliente.ServiceLocator.get\lTelemetrias" alt="" coords="298,5,469,47"/>
-<area shape="rect" id="node3" href="$interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a3c8ee54ab6e8d3aa9b811a91e2830f75" title="servidor.remote.IFacadeTelemetrias.comprobar\lBateria" alt="" coords="237,71,529,112"/>
-</map>

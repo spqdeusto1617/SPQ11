@@ -1,7 +1,0 @@
-<map id="servidor.remote.FacadeGPS.obtenerPosicionActualGPS" name="servidor.remote.FacadeGPS.obtenerPosicionActualGPS">
-<area shape="rect" id="node2" href="$classservidor_1_1server_1_1_coche_service.html#a3197a2d4c827f4e5d2ee38f5f58f6dce" title="servidor.server.CocheService.get\lPosicionActualGPS" alt="" coords="285,73,495,115"/>
-<area shape="rect" id="node5" href="$classservidor_1_1data_1_1_posicion.html#a163b800f382532ae0b092f21f7c5bb2c" title="servidor.data.Posicion.get\lLugaresCercanosDeInteres" alt="" coords="543,136,722,177"/>
-<area shape="rect" id="node6" href="$classservidor_1_1data_1_1_posicion.html#aaf05e512b7435488f2761a0d8316fbb1" title="servidor.data.Posicion.get\lUbicacion" alt="" coords="305,192,475,233"/>
-<area shape="rect" id="node3" href="$classservidor_1_1gateways_1_1_gateway_g_p_s.html#a893fb2de6109310028738710e58713f5" title="servidor.gateways.Gateway\lGPS.sendMessage" alt="" coords="543,5,723,47"/>
-<area shape="rect" id="node4" href="$classservidor_1_1data_1_1_posicion.html#a1365b02473b3b397dddcaf77862a98c7" title="servidor.data.Posicion.set\lUbicacion" alt="" coords="547,71,718,112"/>
-</map>

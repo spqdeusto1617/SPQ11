@@ -9,10 +9,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import servidor.data.Album;
-import servidor.data.Posicion;
 
 public class AlbumTest {
-	static Logger logger = Logger.getLogger(Posicion.class.getName());
+	static Logger logger = Logger.getLogger(Album.class.getName());
 	Album album;
 	private  ArrayList <String> canciones= new ArrayList<>();
 	String cancion1= "DJpepe";

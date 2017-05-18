@@ -8,11 +8,10 @@ import org.junit.Test;
 
 import cliente.Controller;
 import cliente.ServiceLocator;
-import servidor.data.Posicion;
 
 
 public class ControllerTest {
-	static Logger logger = Logger.getLogger(ServiceLocator.class.getName());
+	static Logger logger = Logger.getLogger(Controller.class.getName());
 	private ServiceLocator rsl;
 	private  Controller c;
 	@Before

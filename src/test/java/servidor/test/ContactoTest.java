@@ -7,10 +7,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import servidor.data.Contacto;
-import servidor.data.Telemetrias;
 
 public class ContactoTest {
-	static Logger logger = Logger.getLogger(Telemetrias.class.getName());
+	static Logger logger = Logger.getLogger(Contacto.class.getName());
 	Contacto c;
 	@Before
 	public void setUp() throws Exception {

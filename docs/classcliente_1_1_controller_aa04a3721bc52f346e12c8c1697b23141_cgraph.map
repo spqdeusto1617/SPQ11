@@ -1,4 +1,0 @@
-<map id="cliente.Controller.obtenerNuevoKilometraje" name="cliente.Controller.obtenerNuevoKilometraje">
-<area shape="rect" id="node2" href="$classcliente_1_1_service_locator.html#ae8911fa82246eb7d3541027de46fa847" title="cliente.ServiceLocator.get\lTelemetrias" alt="" coords="259,5,430,47"/>
-<area shape="rect" id="node3" href="$interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a523ad8f24dceb3401e0997c261d492cb" title="servidor.remote.IFacadeTelemetrias.get\lNuevoKilometraje" alt="" coords="220,71,469,112"/>
-</map>

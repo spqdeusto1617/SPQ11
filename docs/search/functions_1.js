@@ -1,9 +1,0 @@
-var searchData=
-[
-  ['cochedao',['cocheDAO',['../classservidor_1_1_d_a_o_1_1coche_d_a_o.html#a17c5b6f749cd19113efdcb0079849cc3',1,'servidor::DAO::cocheDAO']]],
-  ['cocheservice',['CocheService',['../classservidor_1_1server_1_1_coche_service.html#a6ebea71dac3784c37e4212d16ee139bd',1,'servidor::server::CocheService']]],
-  ['comprobarbateria',['comprobarBateria',['../classcliente_1_1_controller.html#a576e5ed2ab0e7f4226e8d775c18cab17',1,'cliente.Controller.comprobarBateria()'],['../classservidor_1_1remote_1_1_facade_telemetrias.html#a782fe2d43d08a57d102b61f4961537e6',1,'servidor.remote.FacadeTelemetrias.comprobarBateria()'],['../interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a3c8ee54ab6e8d3aa9b811a91e2830f75',1,'servidor.remote.IFacadeTelemetrias.comprobarBateria()'],['../classservidor_1_1test_1_1_controller_test.html#a3f7b38d3a5d6abeb40404873cb193b3c',1,'servidor.test.ControllerTest.comprobarBateria()']]],
-  ['comprobarvelocidad',['comprobarVelocidad',['../classcliente_1_1_controller.html#a7ca891e02ccbfd804fe06c59cf82bbd6',1,'cliente.Controller.comprobarVelocidad()'],['../classservidor_1_1remote_1_1_facade_telemetrias.html#ae79ef0b9657e96df353aeeadf6e55827',1,'servidor.remote.FacadeTelemetrias.comprobarVelocidad()'],['../interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a4a39e92e4316558b8ee36174898577e4',1,'servidor.remote.IFacadeTelemetrias.comprobarVelocidad()'],['../classservidor_1_1test_1_1_controller_test.html#a51bf7f1444241302f222f27e89b53f10',1,'servidor.test.ControllerTest.comprobarVelocidad()']]],
-  ['contacto',['Contacto',['../classservidor_1_1data_1_1_contacto.html#a5d6cb04434dec97b02122b94f192ade7',1,'servidor::data::Contacto']]],
-  ['controller',['Controller',['../classcliente_1_1_controller.html#a35ef7fd6cf5370367f7e5864ea3b1de9',1,'cliente::Controller']]]
-];
