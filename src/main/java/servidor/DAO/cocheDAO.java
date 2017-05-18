@@ -138,11 +138,11 @@ public class cocheDAO implements IcocheDAO {
 	   
 	    try {
 	       tx.begin();
-	       System.out.println("   * Storing the User: " + destino);
+	       System.out.println("   * Metiendo destino: " + destino);
 	       pm.makePersistent(destino);
 	       tx.commit();
 	    } catch (Exception ex) {
-	    	System.out.println("   $ Error storing the User: " + ex.getMessage());
+	    	System.out.println("   $ Error introduciendo destino: " + ex.getMessage());
 	    } finally {
 	    	if (tx != null && tx.isActive()) {
 	    		tx.rollback();

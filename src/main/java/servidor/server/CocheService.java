@@ -19,7 +19,7 @@ public class CocheService {
 	Telemetrias telemetrias;
 	Posicion posicionActual;
 	private GatewayGPS gatewayGPS;
-	//private IcocheDAO IcocheDAO = new cocheDAO();
+	private IcocheDAO IcocheDAO = new cocheDAO();
 	String ipSocket;
 	int puertoSocket;
 	public CocheService(String ipSocket,int puestoSocket){
@@ -84,7 +84,7 @@ public class CocheService {
 			 posicionActual.setUbicacion("Bilbo");
 			 posicionActual.getLugaresCercanosDeInteres().add(lugarInt1);
 			 posicionActual.getLugaresCercanosDeInteres().add(lugarInt2);
-			 //introducirDestinoBD(lugarInt1, coordenada1);
+			 introducirDestinoBD(lugarInt1, coordenada1);
 			
 			 System.out.println("Posicion encontrada");
 			return  posicionActual;
@@ -97,29 +97,29 @@ public class CocheService {
 	public void introducirDestinoBD(String nomDest, String coordenadasDest){
 		destino = new Destino(nomDest, coordenadasDest);
 		System.out.println("destino creado desde CocheService");
-		//IcocheDAO.setAlbums(album);
+		IcocheDAO.setDestinos(destino);
 	}
 
 	public void introducirContactoBD(String nomContacto, int numContacto){
 		contacto = new Contacto(nomContacto, numContacto);
-		//IcocheDAO.setContactos(contacto);
+		IcocheDAO.setContactos(contacto);
 	}
 
 	public void introducirAlbumBD(String nomAlbum, ArrayList<String> canciones){
 		album = new Album(nomAlbum, canciones);
-		//	IcocheDAO.setAlbums(album);
+		IcocheDAO.setAlbums(album);
 	}
 	
 	public void verDestinos(){
-		//IcocheDAO.getDestinos();
+		IcocheDAO.getDestinos();
 	}
 
 	public void verContactos(){
-		//IcocheDAO.getContactos();
+		IcocheDAO.getContactos();
 	}
 
 	public void verAlbums(){
-		//IcocheDAO.getAlbums();
+		IcocheDAO.getAlbums();
 	}
 	
 	public boolean hacerLlamada(Contacto c) throws RemoteException {
