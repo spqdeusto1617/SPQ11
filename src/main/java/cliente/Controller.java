@@ -3,6 +3,7 @@ package cliente;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 
+import servidor.data.Contacto;
 import servidor.data.Posicion;
 
 
@@ -29,6 +30,7 @@ public class Controller {
 		metodoExitoso=comprobarVelocidad();
 		metodoExitoso=obtenerNuevoKilometraje(1066);
 		metodoExitoso=obtenerPosicionActualGPS("1234");
+		metodoExitoso=reproducirCancion("Liking Park", "In the End");
 		
 	}
 	 public ServiceLocator getServiceLocator() {
@@ -62,6 +64,44 @@ public class Controller {
 		} catch (Exception e) {
 			
 			System.out.println("$ Error Comprobando Bateria() Controller ");
+			return false;
+		}	
+		
+	}
+	public boolean reproducirCancion(String nombreAalbum, String nombreCancion)
+	{
+		try {
+			// Add your code HERE - Related to getting the service 
+		System.out.println("Reproduciendo cancion: ");
+		String cancion= rsl.getOrdenadorAbordo().obtenerCancion(nombreAalbum, nombreCancion);
+		System.out.println(cancion);
+		return true;
+		} catch (Exception e) {
+			
+			System.out.println("$ Error Obteniendo Cancion() Controller ");
+			return false;
+		}	
+		
+	}
+	public boolean hacerLlamada(String nombreContacto, int num)
+	{
+		System.out.println("Connectando... ");
+		Contacto c = new Contacto(nombreContacto, num);
+		try {
+	
+		boolean valido = rsl.getOrdenadorAbordo().hacerLlamada(c);
+		if(valido){
+			System.out.println("Connectado con "+ nombreContacto);
+			Thread.sleep(1210);
+			System.out.println("Fin de conexion con "+ nombreContacto);
+			return true;
+		}else{
+			System.out.println("Error de conexion con "+ nombreContacto);
+			return true;
+		}
+		} catch (Exception e) {
+			
+			System.out.println("$ Error Haciendo la llamada Controller ");
 			return false;
 		}	
 		

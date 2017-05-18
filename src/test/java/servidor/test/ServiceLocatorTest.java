@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import cliente.ServiceLocator;
+import servidor.data.Contacto;
 import servidor.remote.IFacadeGPS;
 import servidor.remote.IFacadeOrdenadorAbordo;
 import servidor.remote.IFacadeTelemetrias;
@@ -46,6 +47,18 @@ public class ServiceLocatorTest {
 		}
 	};
 	private IFacadeOrdenadorAbordo ServicioOrdenadorAbordo= new IFacadeOrdenadorAbordo() {
+
+		@Override
+		public String obtenerCancion(String nombreAalbum, String nombreCancion) throws RemoteException {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		@Override
+		public boolean hacerLlamada(Contacto c) throws RemoteException {
+			// TODO Auto-generated method stub
+			return false;
+		}
 	};
 	@Before
 	public void setUp() throws Exception {
