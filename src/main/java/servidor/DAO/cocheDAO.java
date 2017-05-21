@@ -62,9 +62,6 @@ public class cocheDAO implements IcocheDAO {
 	@Override
 	public List<Album> getAlbums() {
 		PersistenceManager pm = pmf.getPersistenceManager();
-		/* By default only 1 level is retrieved from the db
-		 * so if we wish to fetch more than one level, we must indicate it
-		 */
 		pm.getFetchPlan().setMaxFetchDepth(1);
 		
 		Transaction tx = pm.currentTransaction();

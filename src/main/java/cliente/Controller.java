@@ -3,6 +3,7 @@ package cliente;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 
+import servidor.data.Album;
 import servidor.data.Contacto;
 import servidor.data.Posicion;
 
@@ -73,8 +74,8 @@ public class Controller {
 		try {
 			// Add your code HERE - Related to getting the service 
 		System.out.println("Reproduciendo cancion: ");
-		String cancion= rsl.getOrdenadorAbordo().obtenerCancion(nombreAalbum, nombreCancion);
-		System.out.println(cancion);
+		Album cancion= rsl.getOrdenadorAbordo().obtenerCancion(nombreAalbum, nombreCancion);
+		System.out.println(cancion.getCanciones().toString());
 		return true;
 		} catch (Exception e) {
 			

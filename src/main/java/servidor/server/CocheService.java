@@ -1,7 +1,10 @@
 package servidor.server;
 
+
 import java.rmi.RemoteException;
 import java.util.ArrayList;
+
+import org.datanucleus.store.types.wrappers.List;
 
 import servidor.DAO.IcocheDAO;
 import servidor.DAO.cocheDAO;
@@ -37,9 +40,9 @@ public class CocheService {
 		 canciones1.add("In the end");
 		 canciones2.add("Manifiesto");
 		 canciones3.add("Euskaraz bizi");
-		 album1 = new Album("Linking Park", canciones1);
-		 album2 = new Album("Nach", canciones2);
-		 album3 = new Album("Esne beltza", canciones3);
+		 album1 = new Album("Linking Park", canciones1.toString());
+		 album2 = new Album("Nach", canciones2.toString());
+		 album3 = new Album("Esne beltza", canciones3.toString());
 		 introducirAlbumBD(album1);
 		 introducirAlbumBD(album2);
 		 introducirAlbumBD(album3);
@@ -161,28 +164,32 @@ public class CocheService {
 		
 	}
 	
-	public String reproducirCancion(String nombreAlbum, String nombreCancion) throws RemoteException {
+	public Album reproducirCancion(String nombreAlbum, String nombreCancion) throws RemoteException {
 		System.out.println("Obteniendo Cancion ...");
-		String cancion=null;
-		if(nombreAlbum.equals(album1.getNomAlbum())){
-			for(int i=0;i>=album1.getCanciones().size();i++){
-				if(nombreCancion.equals(album1.getCanciones().get(i))){
-					cancion=album1.getNomAlbum()+": "+album1.getCanciones().get(i);
-				}
-			}
-		}else if(nombreAlbum.equals(album2.getNomAlbum())){
-			for(int i=0;i>=album2.getCanciones().size();i++){
-				if(nombreCancion.equals(album2.getCanciones().get(i))){
-					cancion=album2.getNomAlbum()+": "+album2.getCanciones().get(i);
-				}
-			}
-		}else if(nombreAlbum.equals(album3.getNomAlbum())){
-			for(int i=0;i>=album3.getCanciones().size();i++){
-				if(nombreCancion.equals(album3.getCanciones().get(i))){
-					cancion=album3.getNomAlbum()+": "+album3.getCanciones().get(i);
-				}
-			}
+		//String cancion=null;
+		try{
+		List<Album> myList = new List<Album>(null,null);
+		myList = (List<Album>) IcocheDAO.getAlbums();
+		return myList.get(1);
+		}catch(Exception e){
+			System.out.println("Error al obtener la canción desde CocheService");
+			return null;
 		}
-		return cancion;
+		/*if(nombreAlbum.equals(album1.getNomAlbum())){
+			//for(int i=0;i>=album1.getCanciones().size();i++){
+				if(nombreCancion.equals(album1.getCanciones())){
+					cancion=album1.getNomAlbum()+": "+album1.getCanciones();
+				}
+		}else if(nombreAlbum.equals(album2.getNomAlbum())){
+			//for(int i=0;i>=album2.getCanciones().size();i++){
+				if(nombreCancion.equals(album2.getCanciones())){
+					cancion=album2.getNomAlbum()+": "+album2.getCanciones();
+				}
+		}else if(nombreAlbum.equals(album3.getNomAlbum())){
+			//for(int i=0;i>=album3.getCanciones().size();i++){
+				if(nombreCancion.equals(album3.getCanciones())){
+					cancion=album3.getNomAlbum()+": "+album3.getCanciones();
+				}
+			}*/
 	}
 }

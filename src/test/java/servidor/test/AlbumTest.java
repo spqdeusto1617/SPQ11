@@ -22,7 +22,7 @@ public class AlbumTest {
 		logger.info("Entering setUp");
 		canciones.add(cancion1);
 		canciones.add(cancion2);
-		album = new Album("DJS", canciones);
+		album = new Album("DJS", canciones.toString());
 		
 		logger.info("Leaving setUp");
 	}
@@ -42,8 +42,8 @@ public class AlbumTest {
 	}
 	@Test public void testgetCanciones()throws Exception {
 		logger.info("Starting testgetCanciones");
-		assertEquals("DJpepe",album.getCanciones().get(0)); 
-		assertEquals("DJpape",album.getCanciones().get(1)); 	
+		assertEquals("DJpepe",album.getCanciones()); 
+		assertEquals("DJpape",album.getCanciones()); 	
 		logger.debug("Finishing testgetCanciones");
 	}
 }
