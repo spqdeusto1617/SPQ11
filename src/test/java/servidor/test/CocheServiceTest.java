@@ -23,8 +23,7 @@ import org.databene.contiperf.PerfTest;
 import org.databene.contiperf.Required;
 import org.databene.contiperf.junit.ContiPerfRule;
 
-@PerfTest(invocations = 5)
-@Required(max = 1200, average = 250)
+
 public class CocheServiceTest {
 	
 	static Logger logger = Logger.getLogger(CocheService.class.getName());

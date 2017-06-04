@@ -37,7 +37,7 @@ public class CocheService {
 		this.puertoSocket=puestoSocket;
 		telemetrias = new Telemetrias();
 		 posicionActual= new Posicion();
-		 canciones1.add("In the end");
+		 canciones1.add("In the End");
 		 canciones2.add("Manifiesto");
 		 canciones3.add("Euskaraz bizi");
 		 album1 = new Album("Linking Park", canciones1.toString());
@@ -147,9 +147,11 @@ public class CocheService {
 	
 	public boolean hacerLlamada(Contacto c) throws RemoteException {
 		System.out.println("Buscando contacto ...");
-	 try{
+		boolean encontrado= false;
+		
+		try{
 		 for(int i=0;i>= IcocheDAO.getContactos().size();i++){
-			 if(IcocheDAO.getContactos().get(i).equals(c)){
+			 if(IcocheDAO.getContactos().get(i).getNomContacto().equals(c.getNomContacto())){
 				 System.out.println("Conectado con el contacto ...");
 				 return true;
 				
