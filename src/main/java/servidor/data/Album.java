@@ -1,34 +1,29 @@
 package servidor.data;
 
-import java.util.ArrayList;
 
-import javax.jdo.annotations.Discriminator;
-import javax.jdo.annotations.DiscriminatorStrategy;
-import javax.jdo.annotations.Inheritance;
-import javax.jdo.annotations.InheritanceStrategy;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.PrimaryKey;
+
 @PersistenceCapable(detachable="true")
-@Inheritance(strategy=InheritanceStrategy.SUPERCLASS_TABLE)
-@Discriminator(strategy=DiscriminatorStrategy.CLASS_NAME)
+
 public class Album {
 	@PrimaryKey
 	private String nomAlbum;
-	private  ArrayList <String> canciones= new ArrayList<>();
+	private  String canciones;
 	public String getNomAlbum() {
 		return nomAlbum;
 	}
 	public void setNomAlbum(String nomAlbum) {
 		this.nomAlbum = nomAlbum;
 	}
-	public ArrayList<String> getCanciones() {
+	public String getCanciones() {
 		return canciones;
 	}
-	public void setCanciones(ArrayList<String> canciones) {
+	public void setCanciones(String canciones) {
 		this.canciones = canciones;
 	}
 	
-	public Album(String nomAlbum, ArrayList <String> canciones) {
+	public Album(String nomAlbum, String canciones) {
 		this.nomAlbum=nomAlbum;
 		this.canciones=canciones;
 	}

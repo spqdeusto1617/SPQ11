@@ -1,7 +1,0 @@
-<map id="servidor.server.CocheService" name="servidor.server.CocheService">
-<area shape="rect" id="node2" href="$classservidor_1_1data_1_1_telemetrias.html" title="servidor.data.Telemetrias" alt="" coords="5,5,172,32"/>
-<area shape="rect" id="node3" href="$classservidor_1_1data_1_1_album.html" title="servidor.data.Album" alt="" coords="21,56,157,83"/>
-<area shape="rect" id="node4" href="$classservidor_1_1data_1_1_contacto.html" title="servidor.data.Contacto" alt="" coords="13,107,164,133"/>
-<area shape="rect" id="node5" href="$classservidor_1_1data_1_1_destino.html" title="servidor.data.Destino" alt="" coords="17,157,160,184"/>
-<area shape="rect" id="node6" href="$classservidor_1_1data_1_1_posicion.html" title="servidor.data.Posicion" alt="" coords="14,208,163,235"/>
-</map>

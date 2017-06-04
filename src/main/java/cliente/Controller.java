@@ -3,7 +3,10 @@ package cliente;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 
+import servidor.data.Album;
+import servidor.data.Contacto;
 import servidor.data.Posicion;
+
 
 
 
@@ -28,8 +31,13 @@ public class Controller {
 		metodoExitoso=comprobarVelocidad();
 		metodoExitoso=obtenerNuevoKilometraje(1066);
 		metodoExitoso=obtenerPosicionActualGPS("1234");
+		metodoExitoso=reproducirCancion("Liking Park", "In the End");
 		
 	}
+	 public ServiceLocator getServiceLocator() {
+	    	// Add your code to return the TARGET reference HERE
+	    	return this.rsl;
+	    }
 	
 	
 	/**
@@ -57,6 +65,44 @@ public class Controller {
 		} catch (Exception e) {
 			
 			System.out.println("$ Error Comprobando Bateria() Controller ");
+			return false;
+		}	
+		
+	}
+	public boolean reproducirCancion(String nombreAalbum, String nombreCancion)
+	{
+		try {
+			// Add your code HERE - Related to getting the service 
+		System.out.println("Reproduciendo cancion: ");
+		Album cancion= rsl.getOrdenadorAbordo().obtenerCancion(nombreAalbum, nombreCancion);
+		System.out.println(cancion.getCanciones().toString());
+		return true;
+		} catch (Exception e) {
+			
+			System.out.println("$ Error Obteniendo Cancion() Controller ");
+			return false;
+		}	
+		
+	}
+	public boolean hacerLlamada(String nombreContacto, int num)
+	{
+		System.out.println("Connectando... ");
+		Contacto c = new Contacto(nombreContacto, num);
+		try {
+	
+		boolean valido = rsl.getOrdenadorAbordo().hacerLlamada(c);
+		if(valido){
+			System.out.println("Connectado con "+ nombreContacto);
+			Thread.sleep(1210);
+			System.out.println("Fin de conexion con "+ nombreContacto);
+			return true;
+		}else{
+			System.out.println("Error de conexion con "+ nombreContacto);
+			return true;
+		}
+		} catch (Exception e) {
+			
+			System.out.println("$ Error Haciendo la llamada Controller ");
 			return false;
 		}	
 		
@@ -106,7 +152,7 @@ public class Controller {
 		
 		
 	}
-	
+
 	/** 
 	 * Hace una llamada al service locator para que
 	 *  conecte con el servidor y mire la posicion actual 

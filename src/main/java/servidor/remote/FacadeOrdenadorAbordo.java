@@ -2,6 +2,8 @@ package servidor.remote;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+import servidor.data.Album;
+import servidor.data.Contacto;
 import servidor.server.CocheService;
 
 
@@ -14,6 +16,12 @@ public FacadeOrdenadorAbordo( CocheService progServ) throws RemoteException {
 		this.progServ = progServ;
 		
 	}
-
+public Album obtenerCancion(String nombreAalbum, String nombreCancion) throws RemoteException {
+	return progServ.reproducirCancion(nombreAalbum, nombreCancion);
+}
+@Override
+public boolean hacerLlamada(Contacto c) throws RemoteException {
+	return progServ.hacerLlamada(c);
+}
 
 }

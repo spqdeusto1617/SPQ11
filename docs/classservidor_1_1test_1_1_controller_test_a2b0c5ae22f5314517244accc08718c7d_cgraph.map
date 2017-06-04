@@ -1,5 +1,0 @@
-<map id="servidor.test.ControllerTest.obtenerNuevoKilometraje" name="servidor.test.ControllerTest.obtenerNuevoKilometraje">
-<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#aa04a3721bc52f346e12c8c1697b23141" title="cliente.Controller.obtener\lNuevoKilometraje" alt="" coords="248,39,415,80"/>
-<area shape="rect" id="node3" href="$classcliente_1_1_service_locator.html#ae8911fa82246eb7d3541027de46fa847" title="cliente.ServiceLocator.get\lTelemetrias" alt="" coords="502,5,673,47"/>
-<area shape="rect" id="node4" href="$interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a523ad8f24dceb3401e0997c261d492cb" title="servidor.remote.IFacadeTelemetrias.get\lNuevoKilometraje" alt="" coords="463,71,712,112"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="servidor.test.ControllerTest.comprobarVelocidad" name="servidor.test.ControllerTest.comprobarVelocidad">
-<area shape="rect" id="node2" href="$classcliente_1_1_controller.html#a7ca891e02ccbfd804fe06c59cf82bbd6" title="cliente.Controller.comprobar\lVelocidad" alt="" coords="223,39,407,80"/>
-<area shape="rect" id="node3" href="$classcliente_1_1_service_locator.html#ae8911fa82246eb7d3541027de46fa847" title="cliente.ServiceLocator.get\lTelemetrias" alt="" coords="515,5,686,47"/>
-<area shape="rect" id="node4" href="$interfaceservidor_1_1remote_1_1_i_facade_telemetrias.html#a4a39e92e4316558b8ee36174898577e4" title="servidor.remote.IFacadeTelemetrias.comprobar\lVelocidad" alt="" coords="455,71,747,112"/>
-</map>

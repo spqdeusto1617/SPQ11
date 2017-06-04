@@ -62,9 +62,6 @@ public class cocheDAO implements IcocheDAO {
 	@Override
 	public List<Album> getAlbums() {
 		PersistenceManager pm = pmf.getPersistenceManager();
-		/* By default only 1 level is retrieved from the db
-		 * so if we wish to fetch more than one level, we must indicate it
-		 */
 		pm.getFetchPlan().setMaxFetchDepth(1);
 		
 		Transaction tx = pm.currentTransaction();
@@ -138,11 +135,11 @@ public class cocheDAO implements IcocheDAO {
 	   
 	    try {
 	       tx.begin();
-	       System.out.println("   * Storing the User: " + destino);
+	       System.out.println("   * Metiendo destino: " + destino);
 	       pm.makePersistent(destino);
 	       tx.commit();
 	    } catch (Exception ex) {
-	    	System.out.println("   $ Error storing the User: " + ex.getMessage());
+	    	System.out.println("   $ Error introduciendo destino: " + ex.getMessage());
 	    } finally {
 	    	if (tx != null && tx.isActive()) {
 	    		tx.rollback();
